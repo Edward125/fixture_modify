@@ -1,0 +1,125 @@
+!!!!   13    0    1  971791024   0000                                         
+!---------------------------------------------------------------------------
+!FIXTURE DESCRIPTION LISTER 
+!
+!express_bank2
+!---------------------------------------------------------------------------
+
+!
+! To activate this fixture default file, compile it with the fixture compiler
+! using the default option.  The BT-basic command is
+!
+!    compile <fixture> ;fixture,defaults
+!
+! You can override the global fixture default files by making a copy of the
+! applicable file and placing it in the board directory as "fixture_defaults"
+! with the desired changes.  You must then compile the file using the command 
+! above before the software will use it to initialize the fixture.
+!
+
+
+!
+! Mandatory fields for a default file
+!
+OPTIONS
+  Fixture Type         EXPRESS;
+  Fixture Size         BANK2;
+  Top Probes Allowed   ON;
+  Density Threshold    104.0;
+  Heavy Probe Force    8.0;
+  Light Probe Force    4.0;
+  Metric Units         OFF;
+  Wirewrapping         AUTO;
+
+!
+! Optional fields for a default file
+!
+!OPTIONS
+!  Fixture Part Number 
+!  Autofile
+
+KEEPOUT TOP
+       -1887,  -85312
+       18113,  -85312
+       18113,   94662
+       -1887,   94662
+       -1887,  -85312;
+
+  KEEPOUT TOP
+      136618,  -85312
+      156618,  -85312
+      156618,   94662
+      136618,   94662
+      136618,  -85312;
+
+  KEEPOUT TOP
+       -1887,   94662
+      156618,   94662
+      156618,   83662
+       -1887,   83662
+       -1887,   94662;
+
+  KEEPOUT TOP
+       -1887,  -85312
+      156618,  -85312
+      156618,  -74312
+       -1887,  -74312
+       -1887,  -85312;
+       
+  KEEPOUT BOTH
+     129731,80000
+     129731,50000
+     156618,50000
+     156618,80000
+     129731,80000;
+     
+     
+  KEEPOUT BOTH
+     -1887,80000
+     -1887,50000
+     25000,50000
+     25000,80000
+     -1887,80000; 
+   
+  KEEPOUT BOTH
+    -1887,-85312
+    25000,-85312
+    25000,-40650
+    -1887,-40650;
+    
+  KEEPOUT BOTH
+    156618, -85312
+    156618, -40650
+    129731, -40650
+    129731, -85312
+    156618, -85312;
+    
+  KEEPOUT BOTH
+    18113,  83662
+    18113,  80000
+    21725,  80000
+    21725,  83662
+    18113,  83662;
+    
+    
+  KEEPOUT BOTH 
+   136618,83662
+   136618,80000
+   134079,80000
+   134079,83662
+   136618,83662  
+          
+
+!
+! New feature
+!
+! This allows you to define your own default placement instead of using the
+! placement built into Board Placement.  
+!
+! Precedence for using placements is from highest to lowest:  board_xy placement,
+! the Default Placement noted below, and last, the built in placement used by 
+! Board Placement.
+
+! Default Placement 30198,  -77677  0.0;
+
+END

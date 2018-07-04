@@ -1,0 +1,235 @@
+------------------------------------------------------------------------------
+AGILENT ICT BOARD PLACEMENT                Sat Jan  8 18:02:17 2011      
+
+E:/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/DN15-Small-10755-1/fixture/details
+------------------------------------------------------------------------------
+
+The fixture file will be initialized using values from a fixture
+   default object.  All fixture options in the board file will be ignored
+   except for fixture size and type.
+   
+   The default object is ./fixture_defaults.o. (WARNING BPL88)
+
+Inserted fixture part number "44200S" into the fixture object file.
+   The fixture part number was selected based on the fixture parameters
+   specified.  If you wish to use an alternative fixture part number, please
+   list the fixture object and replace the fixture part number in the fixture
+   file with one of the other recognized part numbers described in the manual.
+
+ 
+Trying to find a placement for the board that is compatible
+   with the board handler.
+
+The board "DN15-Small-10755-1" was placed at X =  38125, Y = -64650
+  with a rotation of  90.000 degrees.
+
+------------------------------------------------------------------------------
+AGILENT ICT BOARD PLACEMENT                Sat Jan  8 18:03:54 2011      
+
+E:/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/DN15-Small-10755-1/fixture/details
+------------------------------------------------------------------------------
+
+The fixture file will be initialized using values from a fixture
+   default object.  All fixture options in the board file will be ignored
+   except for fixture size and type.
+   
+   The default object is ./fixture_defaults.o. (WARNING BPL88)
+
+Inserted fixture part number "44200S" into the fixture object file.
+   The fixture part number was selected based on the fixture parameters
+   specified.  If you wish to use an alternative fixture part number, please
+   list the fixture object and replace the fixture part number in the fixture
+   file with one of the other recognized part numbers described in the manual.
+
+ 
+Trying to find a placement for the board that is compatible
+   with the board handler.
+
+The board "DN15-Small-10755-1" was placed at X =  38125, Y = -64650
+  with a rotation of  90.000 degrees.
+
+------------------------------------------------------------------------------
+AGILENT 3070 FIXTURE CONSULTANT PLACEMENT VALUES     Sat Jan 08, 2011 6:04:13 P
+
+/E=/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/DN15-Small-10755-1/fixture/details
+------------------------------------------------------------------------------
+
+Placement relative to board center, 76926, 3450, 0.0
+Placement relative to board origin, 44554, 42686, 0.0
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Sat Jan  8 18:04:14 2011      
+
+E:/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/DN15-Small-10755-1/fixture/details
+------------------------------------------------------------------------------
+
+ 
+
+CALCULATED PROBE TO PROBE CLEARANCES (Standard Spacing)
+-------------------------------------------------------
+
+    P r o b e    t o    P r o b e       Min Clearance
+--------------------------------------  -------------
+
+ Long    probe - Long    probe             1000
+ 100 Mil probe - Long    probe             950
+ 75  Mil probe - Long    probe             870
+ 100 Mil probe - 100 Mil probe             850
+ 75  Mil probe - 100 Mil probe             800
+ 50  Mil probe - Long    probe             800
+ 39  Mil probe - Long    probe             770
+ 50  Mil probe - 100 Mil probe             720
+ 75  Mil probe - 75  Mil probe             700
+ 39  Mil probe - 100 Mil probe             690
+ 50  Mil probe - 75  Mil probe             660
+ 39  Mil probe - 75  Mil probe             610
+ 50  Mil probe - 50  Mil probe             470
+ 39  Mil probe - 50  Mil probe             450
+ 39  Mil probe - 39  Mil probe             390
+ Long    probe - 375 Mil tooling pin       2910
+ 100 Mil probe - 375 Mil tooling pin       2850
+ 75  Mil probe - 375 Mil tooling pin       2780
+ 39  Mil probe - 375 Mil tooling pin       2700
+ 50  Mil probe - 375 Mil tooling pin       2680
+ Long    probe - 200 Mil tooling pin       1600
+ 100 Mil probe - 200 Mil tooling pin       1525
+ 75  Mil probe - 200 Mil tooling pin       1475
+ 39  Mil probe - 200 Mil tooling pin       1275
+ 50  Mil probe - 200 Mil tooling pin       1255
+
+
+Board: DN15-Small-10755-1%1
+
+         NODES MARKED NO_PROBE OR NO_ACCESS IN BOARD_XY
+         ----------------------------------------------
+
+    1%CRT_VSYNC_CON_1
+    1%NC_34
+    1%NC_35
+    1%NC_36
+    1%NC_37
+    1%NC_38
+    1%NC_39
+    1%NC_40
+    1%NC_41
+    1%NC_42
+    1%NC_43
+    1%PS_ID
+    1%USB_PN1
+    1%USB_PN1_C
+    1%USB_PP1
+    1%USB_PP1_C
+
+
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Sat Jan  8 18:04:14 2011      
+
+E:/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/DN15-Small-10755-1/fixture/details
+------------------------------------------------------------------------------
+
+Board: DN15-Small-10755-1%2
+
+         NODES MARKED NO_PROBE OR NO_ACCESS IN BOARD_XY
+         ----------------------------------------------
+
+    2%CRT_VSYNC_CON_1
+    2%NC_34
+    2%NC_35
+    2%NC_36
+    2%NC_37
+    2%NC_38
+    2%NC_39
+    2%NC_40
+    2%NC_41
+    2%NC_42
+    2%NC_43
+    2%PS_ID
+    2%USB_PN1
+    2%USB_PN1_C
+    2%USB_PP1
+    2%USB_PP1_C
+
+
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Sat Jan  8 18:04:14 2011      
+
+E:/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/DN15-Small-10755-1/fixture/details
+------------------------------------------------------------------------------
+
+                  PINS BLOCKED BY PROBE SELECT
+                  ----------------------------
+
+Pin 21467 provides hybrid card resources 
+    Blocked by probes:
+        P35  -8200,7259   Board: DN15-Small-10755-1%2   Node: 2%CRT_B
+        P45  -7550,5909   Board: DN15-Small-10755-1%2   Node: 2%CRT_VSYNC_CON
+
+Pin 205167 provides analog card resources 
+    Blocked by probes:
+        P6   -8200,7259   Board: DN15-Small-10755-1%1   Node: 1%CRT_B
+        P10  -8300,8663   Board: DN15-Small-10755-1%1   Node: 1%CRT_G
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Sat Jan  8 18:04:14 2011      
+
+E:/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/DN15-Small-10755-1/fixture/details
+------------------------------------------------------------------------------
+
+Board: DN15-Small-10755-1%1
+
+                    MISCELLANEOUS
+                    -------------
+
+50MIL probes:
+    1%3D3V_S0         ( via. )
+    1%CRT_B   ( via. )
+    1%CRT_DDCCLK_CON  ( via. )
+    1%CRT_HSYNC_CON_1         ( via. )
+    1%N134944327      ( via. )
+    1%PSID_EC         ( via. )
+    1%RCID    ( via. )
+
+Light spring force probes:
+    1%3D3V_S0         ( via. )
+    1%CRT_B   ( via. )
+    1%CRT_DDCCLK_CON  ( via. )
+    1%CRT_HSYNC_CON_1         ( via. )
+    1%N134944327      ( via. )
+    1%PSID_EC         ( via. )
+    1%RCID    ( via. )
+
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Sat Jan  8 18:04:14 2011      
+
+E:/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/DN15-Small-10755-1/fixture/details
+------------------------------------------------------------------------------
+
+Board: DN15-Small-10755-1%2
+
+                    MISCELLANEOUS
+                    -------------
+
+50MIL probes:
+    2%3D3V_S0         ( via. )
+    2%CRT_B   ( via. )
+    2%CRT_DDCCLK_CON  ( via. )
+    2%CRT_HSYNC_CON_1         ( via. )
+    2%N134944327      ( via. )
+    2%PSID_EC         ( via. )
+    2%RCID    ( via. )
+
+Light spring force probes:
+    2%3D3V_S0         ( via. )
+    2%CRT_B   ( via. )
+    2%CRT_DDCCLK_CON  ( via. )
+    2%CRT_HSYNC_CON_1         ( via. )
+    2%N134944327      ( via. )
+    2%PSID_EC         ( via. )
+    2%RCID    ( via. )
+

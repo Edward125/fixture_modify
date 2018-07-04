@@ -1,0 +1,34 @@
+------------------------------------------------------------------------------
+AGILENT ICT BOARD PLACEMENT                Sat Jan  8 19:46:18 2011      
+
+E:/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/10755-1-180/fixture/details
+------------------------------------------------------------------------------
+
+The fixture file will be initialized using values from a fixture
+   default object.  All fixture options in the board file will be ignored
+   except for fixture size and type.
+   
+   The default object is ./fixture_defaults.o. (WARNING BPL88)
+
+Inserted fixture part number "44200S" into the fixture object file.
+   The fixture part number was selected based on the fixture parameters
+   specified.  If you wish to use an alternative fixture part number, please
+   list the fixture object and replace the fixture part number in the fixture
+   file with one of the other recognized part numbers described in the manual.
+
+ 
+Trying to find a placement for the board that is compatible
+   with the board handler.
+
+The board "10755-1-180" was placed at X =  38125, Y = -64650
+  with a rotation of  90.000 degrees.
+
+------------------------------------------------------------------------------
+AGILENT 3070 FIXTURE CONSULTANT PLACEMENT VALUES     Sat Jan 08, 2011 7:46:56 P
+
+/E=/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/10755-1-180/fixture/details
+------------------------------------------------------------------------------
+
+Placement relative to board center, 76926, 3450, 0.0
+Placement relative to board origin, 44554, 42686, 0.0
+

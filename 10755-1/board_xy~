@@ -1,0 +1,452 @@
+!!!!   15    1    1 1294480894   0000                                         
+!---------------------------------------------------------------------------
+!AGILENT ICT PHYSICAL DESCRIPTION FILE           Sat Jan 08, 2011 6:01:35 PM
+!
+!board_xy
+!---------------------------------------------------------------------------
+
+  UNITS  MILS;
+  SCALE  0.1;
+
+  OUTLINE
+      -13027,   31528
+       77771,   31528
+       77771,  -35000
+       77771,  -43500
+       77771, -110000
+      -13027, -110000;
+
+  BOARDS
+       1 "10808-1"        0        0    0.00;
+       2 "10808-1"        0   -59055    0.00;
+
+  BOARD "10808-1"
+
+    OUTLINE
+          3819,   28228
+          3819,   11455
+         -5576,   11455
+         -5576,     -39
+        -11535,     -39
+        -11535,   28228;
+
+    NODE +DC_IN
+      ALTERNATES
+           -5350,   20039 PREFERRED;
+           -4694,   18121 PREFERRED;
+           -3980,   20199 PREFERRED;
+
+    NODE 3D3V_S0
+      ALTERNATES
+           -6810,   12649 TOP PREFERRED;
+
+    NODE 3D3V_S5
+      ALTERNATES
+           -1180,   20827 PREFERRED;
+
+    NODE 5V_CRT_S0_R
+      ALTERNATES
+           -8500,   13679 TOP PREFERRED;
+
+    NODE 5V_S5
+      ALTERNATES
+           -2550,   19889 PREFERRED;
+
+    NODE 5V_USB1_S3
+      ALTERNATES
+           -3060,   22041 PREFERRED;
+           -1441,   22010 PREFERRED;
+            -896,   21367 PREFERRED;
+
+    NODE AD+
+      ALTERNATES
+              20,   17839 PREFERRED;
+
+    NODE CRT_B
+      ALTERNATES
+           -8200,    7259 PREFERRED;
+
+    NODE CRT_BLUE_R
+      ALTERNATES
+            -560,   15889 PREFERRED;
+
+    NODE CRT_DDCCLK_CON
+      ALTERNATES
+           -6820,   13269 TOP PREFERRED;
+
+    NODE CRT_DDCDATA_CON
+      ALTERNATES
+           -7500,    8669 TOP PREFERRED;
+
+    NODE CRT_G
+      ALTERNATES
+           -8300,    8663 PREFERRED;
+
+    NODE CRT_GREEN_R
+      ALTERNATES
+           -5720,   14169 PREFERRED;
+
+    NODE CRT_HSYNC_CON
+      ALTERNATES
+           -7270,    8079 PREFERRED;
+
+    NODE CRT_HSYNC_CON_1
+      ALTERNATES
+           -8210,    7797 PREFERRED;
+
+    NODE CRT_R
+      ALTERNATES
+           -8350,   10539 PREFERRED;
+
+    NODE CRT_RED_R
+      ALTERNATES
+           -3640,   16349 PREFERRED;
+
+    NODE CRT_VSYNC_CON
+      ALTERNATES
+           -7550,    5909 PREFERRED;
+
+    NODE CRT_VSYNC_CON_1 NO_ACCESS;
+
+    NODE DDCCLK
+      ALTERNATES
+             275,   18419 TOP PREFERRED;
+
+    NODE DDCDATA
+      ALTERNATES
+             496,   17529 TOP PREFERRED;
+
+    NODE GND
+      ALTERNATES
+           -9087,   21352 PREFERRED;
+           -8100,   10859 TOP PREFERRED;
+           -8090,    4499 TOP PREFERRED;
+           -7850,    4269 PREFERRED;
+           -7500,    5319 PREFERRED;
+           -5690,   14219 TOP PREFERRED;
+           -1420,   19949 PREFERRED;
+            2500,   17699 TOP PREFERRED;
+            2610,   19399 TOP PREFERRED;
+
+    NODE N17827460
+      ALTERNATES
+           -3600,   16339 TOP PREFERRED;
+
+    NODE N134944327
+      ALTERNATES
+           -2050,   19429 PREFERRED;
+
+    NODE NC_34 NO_ACCESS;
+
+    NODE NC_35 NO_ACCESS;
+
+    NODE NC_36 NO_ACCESS;
+
+    NODE NC_37 NO_ACCESS;
+
+    NODE NC_38 NO_ACCESS;
+
+    NODE NC_39 NO_ACCESS;
+
+    NODE NC_40 NO_ACCESS;
+
+    NODE NC_41 NO_ACCESS;
+
+    NODE NC_42 NO_ACCESS;
+
+    NODE NC_43 NO_ACCESS;
+
+    NODE PS_ID NO_ACCESS;
+
+    NODE PS_ID_R
+      ALTERNATES
+           -5250,   18189 TOP PREFERRED;
+
+    NODE PS_ID_R2
+      ALTERNATES
+           -4560,   17499 TOP PREFERRED;
+
+    NODE PSID_DISABLE#_R_C
+      ALTERNATES
+           -4168,   18754 TOP PREFERRED;
+
+    NODE PSID_EC
+      ALTERNATES
+             909,   18941 TOP PREFERRED;
+
+    NODE RCID
+      ALTERNATES
+            1397,   19174 TOP PREFERRED;
+
+    NODE USB_PN1 NO_ACCESS;
+
+    NODE USB_PN1_C NO_ACCESS;
+
+    NODE USB_PP1 NO_ACCESS;
+
+    NODE USB_PP1_C NO_ACCESS;
+
+    OTHER
+      ALTERNATES
+          -10764,   15177 DCIN1.9 TOP NO_PROBE;
+          -10764,   20177 DCIN1.8 TOP NO_PROBE;
+          -10040,    5910 CRT1.15 TOP NO_PROBE;
+          -10040,    6510 CRT1.4 TOP NO_PROBE;
+          -10040,    7110 CRT1.9 TOP NO_PROBE;
+          -10040,    7710 CRT1.13 TOP NO_PROBE;
+          -10040,    8310 CRT1.2 TOP NO_PROBE;
+          -10040,    8910 CRT1.7 TOP NO_PROBE;
+          -10040,    9510 CRT1.11 TOP NO_PROBE;
+           -9567,    2718 CRT1.17 TOP NO_PROBE;
+           -9567,   12557 CRT1.16 TOP NO_PROBE;
+           -9449,    5610 CRT1.5 TOP NO_PROBE;
+           -9449,    6210 CRT1.10 TOP NO_PROBE;
+           -9449,    6810 CRT1.14 TOP NO_PROBE;
+           -9449,    7410 CRT1.3 TOP NO_PROBE;
+           -9449,    8010 CRT1.8 TOP NO_PROBE;
+           -9449,    8610 CRT1.12 TOP NO_PROBE;
+           -9449,    9210 CRT1.1 TOP NO_PROBE;
+           -9449,    9810 CRT1.6 TOP NO_PROBE;
+           -9252,    4492 CRT1.NP2 TOP NO_PROBE;
+           -9252,   10783 CRT1.NP1 TOP NO_PROBE;
+           -8780,   24764 H2.1 TOP NO_PROBE;
+           -8284,   15177 DCIN1.5 TOP NO_PROBE;
+           -8284,   20177 DCIN1.4 TOP NO_PROBE;
+           -8250,    9344 R304.1 TOP NO_PROBE;
+           -8250,    9694 R304.2 TOP NO_PROBE;
+           -8220,    8474 C304.2 TOP NO_PROBE;
+           -8220,    8824 C304.1 TOP NO_PROBE;
+           -8185,    7279 C317.1 TOP NO_PROBE;
+           -8185,    7679 R305.2 TOP NO_PROBE;
+           -8185,    8059 C312.1 TOP NO_PROBE;
+           -8175,    5739 C315.1 TOP NO_PROBE;
+           -8175,    6139 R302.2 TOP NO_PROBE;
+           -8175,    6539 C316.1 TOP NO_PROBE;
+           -8175,    6879 C303.1 TOP NO_PROBE;
+           -8120,   12433 Q301.3 TOP NO_PROBE;
+           -8120,   12689 Q301.2 TOP NO_PROBE;
+           -8120,   12945 Q301.1 TOP NO_PROBE;
+           -8020,   10864 C309.1 NO_PROBE;
+           -8020,   11214 C309.2 NO_PROBE;
+           -8000,    9014 C310.1 NO_PROBE;
+           -8000,    9364 C310.2 NO_PROBE;
+           -7928,   12403 RN302.4 NO_PROBE;
+           -7928,   12875 RN302.1 NO_PROBE;
+           -7925,   13539 EC205.2 NO_PROBE;
+           -7900,    8539 L302.2 NO_PROBE;
+           -7900,   10389 L301.2 NO_PROBE;
+           -7886,   13561 RN301.2 TOP NO_PROBE;
+           -7886,   13817 RN301.1 TOP NO_PROBE;
+           -7870,    8474 C305.2 TOP NO_PROBE;
+           -7870,    8824 C305.1 TOP NO_PROBE;
+           -7850,    9344 R303.1 TOP NO_PROBE;
+           -7850,    9694 R303.2 TOP NO_PROBE;
+           -7835,    7279 C317.2 TOP NO_PROBE;
+           -7835,    7679 R305.1 TOP NO_PROBE;
+           -7835,    8059 C312.2 TOP NO_PROBE;
+           -7825,    5739 C315.2 TOP NO_PROBE;
+           -7825,    6139 R302.1 TOP NO_PROBE;
+           -7825,    6539 C316.2 TOP NO_PROBE;
+           -7825,    6879 C303.2 TOP NO_PROBE;
+           -7800,    7214 C311.1 NO_PROBE;
+           -7800,    7564 C311.2 NO_PROBE;
+           -7700,    6739 L303.2 NO_PROBE;
+           -7672,   12403 RN302.3 NO_PROBE;
+           -7672,   12875 RN302.2 NO_PROBE;
+           -7650,    9014 C307.1 NO_PROBE;
+           -7650,    9364 C307.2 NO_PROBE;
+           -7645,   10839 C306.2 NO_PROBE;
+           -7645,   11239 R308.2 NO_PROBE;
+           -7575,   13539 EC205.1 NO_PROBE;
+           -7450,    7214 C308.1 NO_PROBE;
+           -7450,    7564 C308.2 NO_PROBE;
+           -7414,   13561 RN301.3 TOP NO_PROBE;
+           -7414,   13817 RN301.4 TOP NO_PROBE;
+           -7380,   12433 Q301.4 TOP NO_PROBE;
+           -7380,   12689 Q301.5 TOP NO_PROBE;
+           -7380,   12945 Q301.6 TOP NO_PROBE;
+           -7300,    8539 L302.1 NO_PROBE;
+           -7300,   10389 L301.1 NO_PROBE;
+           -7295,   10839 C306.1 NO_PROBE;
+           -7295,   11239 R308.1 NO_PROBE;
+           -7280,    9014 R307.1 NO_PROBE;
+           -7280,    9364 R307.2 NO_PROBE;
+           -7100,    6739 L303.1 NO_PROBE;
+           -7050,    7214 R306.1 NO_PROBE;
+           -7050,    7564 R306.2 NO_PROBE;
+           -7024,   15177 DCIN1.6 TOP NO_PROBE;
+           -7024,   20177 DCIN1.7 TOP NO_PROBE;
+           -6811,   22598 H3.1 TOP NO_PROBE;
+           -6276,   16858 DCIN1.2 TOP NO_PROBE;
+           -6276,   17677 DCIN1.1 TOP NO_PROBE;
+           -6276,   18496 DCIN1.3 TOP NO_PROBE;
+           -6221,    1142 H1.1 TOP NO_PROBE;
+           -5535,   19559 PD3803.3 TOP NO_PROBE;
+           -5394,   23976 USB3.5 TOP NO_PROBE;
+           -5394,   26378 USB3.7 TOP NO_PROBE;
+           -4987,   21308 C401.2 TOP NO_PROBE;
+           -4984,   20928 R403.2 TOP NO_PROBE;
+           -4975,   20559 EC203.2 TOP NO_PROBE;
+           -4950,   16889 EC204.1 NO_PROBE;
+           -4950,   17489 EC204.2 NO_PROBE;
+           -4785,   19171 PD3803.1 TOP NO_PROBE;
+           -4785,   19946 PD3803.2 TOP NO_PROBE;
+           -4756,   17905 PR3801.2 TOP NO_PROBE;
+           -4756,   18505 PR3801.1 TOP NO_PROBE;
+           -4637,   21308 C401.1 TOP NO_PROBE;
+           -4634,   20928 R403.1 TOP NO_PROBE;
+           -4625,   20559 EC203.1 TOP NO_PROBE;
+           -4430,   16789 PC3802.2 NO_PROBE;
+           -4430,   17389 PC3802.1 NO_PROBE;
+           -4345,   16249 PR3812.1 TOP NO_PROBE;
+           -4297,   17904 PR3808.2 TOP NO_PROBE;
+           -4297,   18312 PR3807.2 TOP NO_PROBE;
+           -4280,   16839 PR3810.1 TOP NO_PROBE;
+           -4252,   24173 USB3.1 TOP NO_PROBE;
+           -4160,   19194 PR3806.2 TOP NO_PROBE;
+           -4160,   19544 PR3806.1 TOP NO_PROBE;
+           -4090,   18409 PR3809.1 NO_PROBE;
+           -4090,   19009 PR3809.2 NO_PROBE;
+           -3995,   16249 PR3812.2 TOP NO_PROBE;
+           -3975,   17319 PR3802.2 TOP NO_PROBE;
+           -3947,   17904 PR3808.1 TOP NO_PROBE;
+           -3947,   18312 PR3807.1 TOP NO_PROBE;
+           -3760,   22389 TC401.1 TOP NO_PROBE;
+           -3690,   20649 PD3801.A TOP NO_PROBE;
+           -3680,   16839 PR3810.2 TOP NO_PROBE;
+           -3680,   18754 PR3803.2 TOP NO_PROBE;
+           -3680,   19104 PR3803.1 TOP NO_PROBE;
+           -3625,   17319 PR3802.1 TOP NO_PROBE;
+           -3550,   17718 PR3811.2 TOP NO_PROBE;
+           -3550,   18068 PR3811.1 TOP NO_PROBE;
+           -3400,   17259 PU3801.1 NO_PROBE;
+           -3400,   17759 PU3801.2 NO_PROBE;
+           -3400,   18259 PU3801.3 NO_PROBE;
+           -3400,   18759 PU3801.4 NO_PROBE;
+           -3268,   24173 USB3.2 TOP NO_PROBE;
+           -3120,   16269 PC3801.2 TOP NO_PROBE;
+           -3055,   19029 PQ3802.3 TOP NO_PROBE;
+           -2975,   17241 PQ3801.1 TOP NO_PROBE;
+           -2975,   18016 PQ3801.2 TOP NO_PROBE;
+           -2480,   24173 USB3.3 TOP NO_PROBE;
+           -2360,   16269 PC3801.1 TOP NO_PROBE;
+           -2305,   18641 PQ3802.1 TOP NO_PROBE;
+           -2305,   19416 PQ3802.2 TOP NO_PROBE;
+           -2260,   22389 TC401.2 TOP NO_PROBE;
+           -2225,   17629 PQ3801.3 TOP NO_PROBE;
+           -1770,   20649 PD3801.C TOP NO_PROBE;
+           -1496,   24173 USB3.4 TOP NO_PROBE;
+           -1485,   16549 PQ3803.3 TOP NO_PROBE;
+           -1454,   17655 PD3804.2 TOP NO_PROBE;
+           -1454,   18403 PD3804.1 TOP NO_PROBE;
+           -1400,   17259 PU3801.8 NO_PROBE;
+           -1400,   17759 PU3801.7 NO_PROBE;
+           -1400,   18259 PU3801.6 NO_PROBE;
+           -1400,   18759 PU3801.5 NO_PROBE;
+           -1380,   19184 PC3804.1 TOP NO_PROBE;
+           -1380,   19534 PC3804.2 TOP NO_PROBE;
+           -1304,   22839 D402.4 TOP NO_PROBE;
+           -1265,   22039 D402.1 TOP NO_PROBE;
+           -1040,   19294 EC201.1 TOP NO_PROBE;
+           -1040,   19644 EC201.2 TOP NO_PROBE;
+            -866,   20500 TR401.4 TOP NO_PROBE;
+            -866,   21167 TR401.3 TOP NO_PROBE;
+            -735,   16161 PQ3803.2 TOP NO_PROBE;
+            -735,   16936 PQ3803.1 TOP NO_PROBE;
+            -700,   19294 PC3803.1 TOP NO_PROBE;
+            -700,   19644 PC3803.2 TOP NO_PROBE;
+            -667,   18029 PD3804.3 TOP NO_PROBE;
+            -556,   22039 D402.2 TOP NO_PROBE;
+            -556,   22839 D402.3 TOP NO_PROBE;
+            -534,   20500 TR401.1 TOP NO_PROBE;
+            -534,   21167 TR401.2 TOP NO_PROBE;
+            -530,   18459 PC3806.1 NO_PROBE;
+            -530,   19559 PC3806.2 NO_PROBE;
+            -354,   23976 USB3.6 TOP NO_PROBE;
+            -354,   26378 USB3.8 TOP NO_PROBE;
+            -350,   19294 PC3805.1 TOP NO_PROBE;
+            -350,   19644 PC3805.2 TOP NO_PROBE;
+             708,   14645 CRTBD2.41 NO_PROBE;
+             708,   15473 CRTBD2.1 NO_PROBE;
+             708,   15788 CRTBD2.3 NO_PROBE;
+             708,   16103 CRTBD2.5 NO_PROBE;
+             708,   16418 CRTBD2.7 NO_PROBE;
+             708,   16732 CRTBD2.9 NO_PROBE;
+             708,   17047 CRTBD2.11 NO_PROBE;
+             708,   17362 CRTBD2.13 NO_PROBE;
+             708,   17677 CRTBD2.15 NO_PROBE;
+             708,   17992 CRTBD2.17 NO_PROBE;
+             708,   18307 CRTBD2.19 NO_PROBE;
+             708,   18622 CRTBD2.21 NO_PROBE;
+             708,   18937 CRTBD2.23 NO_PROBE;
+             708,   19252 CRTBD2.25 NO_PROBE;
+             708,   19567 CRTBD2.27 NO_PROBE;
+             708,   19882 CRTBD2.29 NO_PROBE;
+             708,   20197 CRTBD2.31 NO_PROBE;
+             708,   20512 CRTBD2.33 NO_PROBE;
+             708,   20827 CRTBD2.35 NO_PROBE;
+             708,   21142 CRTBD2.37 NO_PROBE;
+             708,   21457 CRTBD2.39 NO_PROBE;
+             708,   22284 CRTBD2.44 NO_PROBE;
+            1181,   14685 CRTBD2.NP2 TOP NO_PROBE;
+            1181,   22244 CRTBD2.NP1 TOP NO_PROBE;
+            1850,   14645 CRTBD2.42 NO_PROBE;
+            1850,   22284 CRTBD2.45 NO_PROBE;
+            2047,   12559 HIO1.1 TOP NO_PROBE;
+            2047,   24370 HIO2.1 TOP NO_PROBE;
+            2992,   14645 CRTBD2.43 NO_PROBE;
+            2992,   15473 CRTBD2.2 NO_PROBE;
+            2992,   15788 CRTBD2.4 NO_PROBE;
+            2992,   16103 CRTBD2.6 NO_PROBE;
+            2992,   16418 CRTBD2.8 NO_PROBE;
+            2992,   16732 CRTBD2.10 NO_PROBE;
+            2992,   17047 CRTBD2.12 NO_PROBE;
+            2992,   17362 CRTBD2.14 NO_PROBE;
+            2992,   17677 CRTBD2.16 NO_PROBE;
+            2992,   17992 CRTBD2.18 NO_PROBE;
+            2992,   18307 CRTBD2.20 NO_PROBE;
+            2992,   18622 CRTBD2.22 NO_PROBE;
+            2992,   18937 CRTBD2.24 NO_PROBE;
+            2992,   19252 CRTBD2.26 NO_PROBE;
+            2992,   19567 CRTBD2.28 NO_PROBE;
+            2992,   19882 CRTBD2.30 NO_PROBE;
+            2992,   20197 CRTBD2.32 NO_PROBE;
+            2992,   20512 CRTBD2.34 NO_PROBE;
+            2992,   20827 CRTBD2.36 NO_PROBE;
+            2992,   21142 CRTBD2.38 NO_PROBE;
+            2992,   21457 CRTBD2.40 NO_PROBE;
+            2992,   22284 CRTBD2.46 NO_PROBE;
+
+    DEVICES
+      C306 BOTTOM;
+      C307 BOTTOM;
+      C308 BOTTOM;
+      C309 BOTTOM;
+      C310 BOTTOM;
+      C311 BOTTOM;
+      EC204 BOTTOM;
+      EC205 BOTTOM;
+      PC3802 BOTTOM;
+      PC3806 BOTTOM;
+      CRT1 BOTTOM;
+      CRTBD2 BOTTOM;
+      DCIN1 BOTTOM;
+      H1 BOTTOM;
+      H2 BOTTOM;
+      H3 BOTTOM;
+      HIO1 BOTTOM;
+      HIO2 BOTTOM;
+      USB3 BOTTOM;
+      L301 BOTTOM;
+      L302 BOTTOM;
+      L303 BOTTOM;
+      PU3801 BOTTOM;
+      RN302 BOTTOM;
+      PR3809 BOTTOM;
+      R306 BOTTOM;
+      R307 BOTTOM;
+      R308 BOTTOM;
+
+  END BOARD
+
+END

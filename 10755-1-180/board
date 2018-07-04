@@ -1,0 +1,804 @@
+!!!!   12    1    1 1294487134   0000                                         
+!---------------------------------------------------------------------------
+!AGILENT ICT BOARD CONFIGURATION FORMAT          Sat Jan 08, 2011 7:45:35 PM
+!
+! board
+!---------------------------------------------------------------------------
+
+HEADING
+  "10808-1";
+
+GLOBAL OPTIONS
+  Fixture Type    EXPRESS;
+  Fixture Size    BANK2;
+  Top Probes Allowed  ON;
+  Heavy Probe Force      8;
+  Light Probe Force      4;
+  Mechanical Density Threshold    800;
+  Vacuum Density Threshold    104;
+  Test Strategy COMBINATIONAL;
+  WireWrapping AUTO;
+  Metric Units OFF;
+  Common Lead Resistance      0.5;    ! (ohms) from probe to component.
+  Common Lead Inductance       1u;    ! (Henries) from probe to component.
+  Capacitance Compensation ON;
+  IPG Digital Resistance Threshold       42;    ! (ohms)
+  Preconditioning Levels    1;
+  Additional Board Voltage    0;    ! (volts)
+  Boundary Scan Overdrive  OFF;
+  Boundary Scan Disables  OFF;
+  Ground Bounce Suppression  OFF;
+
+DEVICE OPTIONS
+  Tolerance Multiplier    3;
+  Remote Sensing  ON;
+  Fuse Threshold    10;
+  Diode Current     5m;
+  Zener Current  10m;
+  Adjust  FAST;
+  Upstream Disable  OFF;
+  Upstream Condition  OFF;
+  END
+
+FAMILY OPTIONS
+  PCIE
+    Drive High     1.8;
+    Drive Low     -0.2;
+    Receive High   0.9;
+    Receive Low    0.8;
+    Edge Speed     150;
+    Open Input Default  X;
+    Load        UP;
+  V1_5
+    Drive High    1.75;
+    Drive Low     -0.2;
+    Receive High   0.8;
+    Receive Low    0.7;
+    Edge Speed     100;
+    Open Input Default  X;
+    Load        UP;
+  V2_5
+    Drive High     2.6;
+    Drive Low      0.1;
+    Receive High     2;
+    Receive Low    0.8;
+    Edge Speed     100;
+    Open Input Default  X;
+    Load        UP;
+  V3_3
+    Drive High     3.5;
+    Drive Low        0;
+    Receive High   1.2;
+    Receive Low    0.8;
+    Edge Speed     100;
+    Open Input Default  X;
+    Load        UP;
+  TTL
+    Drive High     3.3;
+    Drive Low        0;
+    Receive High     2;
+    Receive Low    0.8;
+    Edge Speed     100;
+    Open Input Default  X;
+    Load        UP;
+  CMOS
+    Drive High       5;
+    Drive Low        0;
+    Receive High     3;
+    Receive Low    0.8;
+    Edge Speed      50;
+    Open Input Default  X;
+    Load        NONE;
+
+CARD OPTIONS
+  PCIE
+    HYBRID;
+  V1_5
+    HYBRID;
+  V2_5
+    HYBRID;
+  V3_3
+    HYBRID;
+  TTL
+    HYBRID;
+  CMOS
+    HYBRID;
+
+LIBRARY OPTIONS
+  "./custom_lib";
+
+UNCONNECTED PIN NC;
+
+
+BOARDS
+  1    "10808-1";
+  2    "10808-1";
+
+BOARD "10808-1"
+
+FIXED NODE OPTIONS
+  +dc_in Family ALL is 1;
+  3d3v_s0 Family ALL is 1;
+  3d3v_s5 Family ALL is 1;
+  5v_crt_s0_r Family ALL is 1;
+  5v_usb1_s3 Family ALL is 1;
+  ad+ Family ALL is 1;
+  GND Family ALL is 0;
+  GND GROUND;
+
+CAPACITOR
+  C303         10n    20    20 f PN"CAP";
+  C304       11.1p     1     1 f PN"unload";
+  C305       11.1p     1     1 f PN"unload";
+  C306       11.1p     1     1 f PN"unload";
+  C307       11.1p     1     1 f PN"unload";
+  C308       11.1p     1     1 f PN"unload";
+  C309         10p    20    20 f PN"CAP";
+  C310         10p    20    20 f PN"CAP";
+  C311         10p    20    20 f PN"CAP";
+  C312       11.1p     1     1 f PN"unload";
+  C315       11.1p     1     1 f PN"unload";
+  C316       11.1p     1     1 f PN"unload";
+  C317       11.1p     1     1 f PN"unload";
+  C401          1u    20    20 f PN"CAP";
+  EC201      11.1p     1     1 f PN"unload";
+  EC203      11.1p     1     1 f PN"unload";
+  EC204       100n    20    20 f PN"CAP";
+  EC205       100n    20    20 f PN"CAP";
+  PC3801        1u    20    20 f PN"CAP";
+  PC3802      100n    20    20 f PN"CAP";
+  PC3803       10n    20    20 f PN"CAP";
+  PC3804       10n    20    20 f PN"CAP";
+  PC3805       10n    20    20 f PN"CAP";
+  PC3806       10u    20    20 f PN"CAP";
+  TC401       100u    20    20 f PN"CAP";
+
+CONNECTOR
+  CRT1      NT PN"CONN";
+  CRTBD2    PN"CONN" TJ;
+  DCIN1     NT PN"CONN";
+  H1        NT;
+  H2        NT;
+  H3        NT;
+  HIO1      NT PN"CONN";
+  HIO2      NT PN"CONN";
+  USB3      NT PN"CONN";
+
+DIODE
+  PD3801       0.8     0.2 PN"DIODE";
+
+JUMPER
+  L301      CLOSED PN"INDUCTOR";
+  L302      CLOSED PN"INDUCTOR";
+  L303      CLOSED PN"INDUCTOR";
+  PR3801    CLOSED PN"PCB_PAD";
+  R302      CLOSED PN"PCB_PAD";
+  R305      CLOSED PN"PCB_PAD";
+
+PIN LIBRARY
+  D402      PN"4p5diode";
+  PD3803    PN"BAV99";
+  PD3804    PN"bat54a";
+  PQ3801    PN"2N7002";
+  PQ3802    PN"TRAN_NPN_BEC";
+  PQ3803    PN"2n7002";
+  PU3801    PN"SI4800";
+  Q301      PN"2N7002DW";
+  RN301     PN"2.2K_4P2R";
+  RN302     PN"2.2K_4P2R";
+  TR401     PN"4P2L_14";
+
+RESISTOR
+  PR3802       15k    10    10 f PN"RESISTOR";
+  PR3803       10k    10    10 f PN"RESISTOR";
+  PR3806      2.2k    10    10 f PN"RESISTOR";
+  PR3807        33    15    10 f PN"RESISTOR";
+  PR3808     8.88M     1     1 f PN"unload";
+  PR3809      240k    10    10 f PN"RESISTOR";
+  PR3810       47k    10    10 f PN"RESISTOR";
+  PR3811      100k    10    10 f PN"RESISTOR";
+  PR3812     8.88M     1     1 f PN"unload";
+  R303       8.88M     1     1 f PN"unload";
+  R304       8.88M     1     1 f PN"unload";
+  R306         150    20    10 f PN"RESISTOR";
+  R307         150    20    10 f PN"RESISTOR";
+  R308         150    20    10 f PN"RESISTOR";
+  R403       8.88M     1     1 f PN"unload";
+
+PIN_MAP
+  CAPACITOR
+    P 1;
+    N 2;
+  DIODE
+    1 A;
+    2 C;
+  FET
+    1 S;
+    2 G;
+    3 D;
+  POTENTIOMETER
+    3 W;
+  TRANSISTOR
+    1 E;
+    2 B;
+    3 C;
+  ZENER
+    1 A;
+    2 C;
+  END
+
+CONNECTIONS
+  +DC_IN
+    DCIN1.2
+    DCIN1.3
+    EC204.2
+    PC3801.1
+    PC3802.1
+    PD3801.A
+    PR3809.1
+    PU3801.1
+    PU3801.2
+    PU3801.3;
+  3D3V_S0
+    CRTBD2.4
+    Q301.2
+    Q301.5
+    RN302.1
+    RN302.2;
+  3D3V_S5
+    CRTBD2.35
+    PD3803.2
+    PR3806.1;
+  5V_CRT_S0_R
+    C303.1
+    CRT1.9
+    CRTBD2.2
+    EC205.2
+    RN301.1
+    RN301.2;
+  5V_S5
+    CRTBD2.33
+    PR3803.1;
+  5V_USB1_S3
+    C401.1
+    CRTBD2.37
+    CRTBD2.39
+    D402.4
+    EC203.1
+    R403.1
+    TC401.1
+    USB3.1;
+  AD+
+    CRTBD2.15
+    CRTBD2.16
+    CRTBD2.17
+    CRTBD2.18
+    CRTBD2.19
+    CRTBD2.20
+    CRTBD2.21
+    CRTBD2.22
+    CRTBD2.23
+    CRTBD2.24
+    CRTBD2.25
+    CRTBD2.26
+    EC201.1
+    PC3803.1
+    PC3804.1
+    PC3805.1
+    PC3806.1
+    PU3801.5
+    PU3801.6
+    PU3801.7
+    PU3801.8;
+  CRT_B
+    C311.1
+    CRT1.3
+    L303.2;
+  CRT_BLUE_R
+    C308.1
+    CRTBD2.1
+    L303.1
+    R306.1;
+  CRT_DDCCLK_CON
+    C304.1
+    C315.1
+    CRT1.15
+    Q301.6
+    R304.1
+    RN301.3;
+  CRT_DDCDATA_CON
+    C305.1
+    C312.1
+    CRT1.12
+    Q301.3
+    R303.1
+    RN301.4;
+  CRT_G
+    C310.1
+    CRT1.2
+    L302.2;
+  CRT_GREEN_R
+    C307.1
+    CRTBD2.5
+    L302.1
+    R307.1;
+  CRT_HSYNC_CON
+    CRTBD2.8
+    R305.1;
+  CRT_HSYNC_CON_1
+    C317.1
+    CRT1.13
+    R305.2;
+  CRT_R
+    C309.1
+    CRT1.1
+    L301.2;
+  CRT_RED_R
+    C306.1
+    CRTBD2.9
+    L301.1
+    R308.1;
+  CRT_VSYNC_CON
+    CRTBD2.10
+    R302.1;
+  CRT_VSYNC_CON_1
+    C316.1
+    CRT1.14
+    R302.2;
+  DDCCLK
+    CRTBD2.29
+    Q301.1
+    R304.2
+    RN302.4;
+  DDCDATA
+    CRTBD2.31
+    Q301.4
+    R303.2
+    RN302.3;
+  GND
+    C303.2
+    C304.2
+    C305.2
+    C306.2
+    C307.2
+    C308.2
+    C309.2
+    C310.2
+    C311.2
+    C312.2
+    C315.2
+    C316.2
+    C317.2
+    C401.2
+    CRT1.5
+    CRT1.6
+    CRT1.7
+    CRT1.8
+    CRT1.10
+    CRT1.16
+    CRT1.17
+    CRTBD2.3
+    CRTBD2.6
+    CRTBD2.7
+    CRTBD2.11
+    CRTBD2.12
+    CRTBD2.34
+    CRTBD2.40
+    CRTBD2.41
+    CRTBD2.42
+    CRTBD2.43
+    CRTBD2.44
+    CRTBD2.45
+    CRTBD2.46
+    D402.1
+    DCIN1.4
+    DCIN1.5
+    DCIN1.6
+    DCIN1.7
+    DCIN1.8
+    DCIN1.9
+    EC201.2
+    EC203.2
+    EC204.1
+    EC205.1
+    H1.1
+    H2.1
+    H3.1
+    HIO1.1
+    HIO2.1
+    PC3802.2
+    PC3803.2
+    PC3804.2
+    PC3805.2
+    PC3806.2
+    PD3801.C
+    PD3803.1
+    PD3804.3
+    PQ3802.2
+    PQ3803.1
+    PR3802.2
+    PR3810.1
+    PR3812.1
+    R306.2
+    R307.2
+    R308.2
+    R403.2
+    TC401.2
+    USB3.4
+    USB3.5
+    USB3.6
+    USB3.7
+    USB3.8;
+  N17827460
+    PC3801.2
+    PR3809.2
+    PR3810.2
+    PU3801.4;
+  N134944327
+    PQ3802.1
+    PR3802.1
+    PR3811.2;
+  NC_34
+    CRT1.4;
+  NC_35
+    CRT1.11;
+  NC_36
+    CRT1.NP2;
+  NC_37
+    CRT1.NP1;
+  NC_38
+    CRTBD2.13;
+  NC_39
+    CRTBD2.14;
+  NC_40
+    CRTBD2.27;
+  NC_41
+    CRTBD2.28;
+  NC_42
+    CRTBD2.NP2;
+  NC_43
+    CRTBD2.NP1;
+  PS_ID
+    PQ3801.1
+    PR3807.1
+    PR3808.2;
+  PS_ID_R
+    DCIN1.1
+    PR3801.1;
+  PS_ID_R2
+    PD3804.1
+    PD3804.2
+    PQ3801.3
+    PR3801.2
+    PR3808.1
+    PR3811.1;
+  PSID_DISABLE#_R_C
+    PQ3801.2
+    PQ3802.3
+    PR3803.2;
+  PSID_EC
+    CRTBD2.30
+    PD3803.3
+    PQ3803.3
+    PR3806.2
+    PR3807.2;
+  RCID
+    CRTBD2.32
+    PQ3803.2
+    PR3812.2;
+  USB_PN1
+    CRTBD2.36
+    TR401.4;
+  USB_PN1_C
+    D402.2
+    TR401.3
+    USB3.2;
+  USB_PP1
+    CRTBD2.38
+    TR401.1;
+  USB_PP1_C
+    D402.3
+    TR401.2
+    USB3.3;
+
+DEVICES
+  C303
+    1.5V_CRT_S0_R
+    2.GND;
+  C304
+    1.CRT_DDCCLK_CON
+    2.GND;
+  C305
+    1.CRT_DDCDATA_CON
+    2.GND;
+  C306
+    1.CRT_RED_R
+    2.GND;
+  C307
+    1.CRT_GREEN_R
+    2.GND;
+  C308
+    1.CRT_BLUE_R
+    2.GND;
+  C309
+    1.CRT_R
+    2.GND;
+  C310
+    1.CRT_G
+    2.GND;
+  C311
+    1.CRT_B
+    2.GND;
+  C312
+    1.CRT_DDCDATA_CON
+    2.GND;
+  C315
+    1.CRT_DDCCLK_CON
+    2.GND;
+  C316
+    1.CRT_VSYNC_CON_1
+    2.GND;
+  C317
+    1.CRT_HSYNC_CON_1
+    2.GND;
+  C401
+    1.5V_USB1_S3
+    2.GND;
+  EC201
+    1.AD+
+    2.GND;
+  EC203
+    1.5V_USB1_S3
+    2.GND;
+  EC204
+    1.GND
+    2.+DC_IN;
+  EC205
+    1.GND
+    2.5V_CRT_S0_R;
+  PC3801
+    1.+DC_IN
+    2.N17827460;
+  PC3802
+    1.+DC_IN
+    2.GND;
+  PC3803
+    1.AD+
+    2.GND;
+  PC3804
+    1.AD+
+    2.GND;
+  PC3805
+    1.AD+
+    2.GND;
+  PC3806
+    1.AD+
+    2.GND;
+  TC401
+    1.5V_USB1_S3
+    2.GND;
+  CRT1
+    1.CRT_R
+    2.CRT_G
+    3.CRT_B
+    4.NC_34
+    5.GND
+    6.GND
+    7.GND
+    8.GND
+    9.5V_CRT_S0_R
+    10.GND
+    11.NC_35
+    12.CRT_DDCDATA_CON
+    13.CRT_HSYNC_CON_1
+    14.CRT_VSYNC_CON_1
+    15.CRT_DDCCLK_CON
+    16.GND
+    17.GND
+    NP1.NC_37
+    NP2.NC_36;
+  CRTBD2
+    1.CRT_BLUE_R
+    2.5V_CRT_S0_R
+    3.GND
+    4.3D3V_S0
+    5.CRT_GREEN_R
+    6.GND
+    7.GND
+    8.CRT_HSYNC_CON
+    9.CRT_RED_R
+    10.CRT_VSYNC_CON
+    11.GND
+    12.GND
+    13.NC_38
+    14.NC_39
+    15.AD+
+    16.AD+
+    17.AD+
+    18.AD+
+    19.AD+
+    20.AD+
+    21.AD+
+    22.AD+
+    23.AD+
+    24.AD+
+    25.AD+
+    26.AD+
+    27.NC_40
+    28.NC_41
+    29.DDCCLK
+    30.PSID_EC
+    31.DDCDATA
+    32.RCID
+    33.5V_S5
+    34.GND
+    35.3D3V_S5
+    36.USB_PN1
+    37.5V_USB1_S3
+    38.USB_PP1
+    39.5V_USB1_S3
+    40.GND
+    41.GND
+    42.GND
+    43.GND
+    44.GND
+    45.GND
+    46.GND
+    NP1.NC_43
+    NP2.NC_42;
+  DCIN1
+    1.PS_ID_R
+    2.+DC_IN
+    3.+DC_IN
+    4.GND
+    5.GND
+    6.GND
+    7.GND
+    8.GND
+    9.GND;
+  H1
+    1.GND;
+  H2
+    1.GND;
+  H3
+    1.GND;
+  HIO1
+    1.GND;
+  HIO2
+    1.GND;
+  USB3
+    1.5V_USB1_S3
+    2.USB_PN1_C
+    3.USB_PP1_C
+    4.GND
+    5.GND
+    6.GND
+    7.GND
+    8.GND;
+  PD3801
+    A.+DC_IN
+    C.GND;
+  L301
+    1.CRT_RED_R
+    2.CRT_R;
+  L302
+    1.CRT_GREEN_R
+    2.CRT_G;
+  L303
+    1.CRT_BLUE_R
+    2.CRT_B;
+  PR3801
+    1.PS_ID_R
+    2.PS_ID_R2;
+  R302
+    1.CRT_VSYNC_CON
+    2.CRT_VSYNC_CON_1;
+  R305
+    1.CRT_HSYNC_CON
+    2.CRT_HSYNC_CON_1;
+  D402
+    1.GND
+    2.USB_PN1_C
+    3.USB_PP1_C
+    4.5V_USB1_S3;
+  PD3803
+    1.GND
+    2.3D3V_S5
+    3.PSID_EC;
+  PD3804
+    1.PS_ID_R2
+    2.PS_ID_R2
+    3.GND;
+  PQ3801
+    1.PS_ID
+    2.PSID_DISABLE#_R_C
+    3.PS_ID_R2;
+  PQ3802
+    1.N134944327
+    2.GND
+    3.PSID_DISABLE#_R_C;
+  PQ3803
+    1.GND
+    2.RCID
+    3.PSID_EC;
+  PU3801
+    1.+DC_IN
+    2.+DC_IN
+    3.+DC_IN
+    4.N17827460
+    5.AD+
+    6.AD+
+    7.AD+
+    8.AD+;
+  Q301
+    1.DDCCLK
+    2.3D3V_S0
+    3.CRT_DDCDATA_CON
+    4.DDCDATA
+    5.3D3V_S0
+    6.CRT_DDCCLK_CON;
+  RN301
+    1.5V_CRT_S0_R
+    2.5V_CRT_S0_R
+    3.CRT_DDCCLK_CON
+    4.CRT_DDCDATA_CON;
+  RN302
+    1.3D3V_S0
+    2.3D3V_S0
+    3.DDCDATA
+    4.DDCCLK;
+  TR401
+    1.USB_PP1
+    2.USB_PP1_C
+    3.USB_PN1_C
+    4.USB_PN1;
+  PR3802
+    1.N134944327
+    2.GND;
+  PR3803
+    1.5V_S5
+    2.PSID_DISABLE#_R_C;
+  PR3806
+    1.3D3V_S5
+    2.PSID_EC;
+  PR3807
+    1.PS_ID
+    2.PSID_EC;
+  PR3808
+    1.PS_ID_R2
+    2.PS_ID;
+  PR3809
+    1.+DC_IN
+    2.N17827460;
+  PR3810
+    1.GND
+    2.N17827460;
+  PR3811
+    1.PS_ID_R2
+    2.N134944327;
+  PR3812
+    1.GND
+    2.RCID;
+  R303
+    1.CRT_DDCDATA_CON
+    2.DDCDATA;
+  R304
+    1.CRT_DDCCLK_CON
+    2.DDCCLK;
+  R306
+    1.CRT_BLUE_R
+    2.GND;
+  R307
+    1.CRT_GREEN_R
+    2.GND;
+  R308
+    1.CRT_RED_R
+    2.GND;
+  R403
+    1.5V_USB1_S3
+    2.GND;
+
+END BOARD
+
+
+END

@@ -1,0 +1,420 @@
+  216    0    6 1294487099   0000                                         
+default probe
+fixture express, bank2, top
+
+outline
+-13027, 31528
+ 77771, 31528
+ 77771,-35000
+ 77771,-43500
+ 77771,-110000
+-13027,-110000
+-13027, 31528
+
+boards
+     1, "10808-1",     0,     0; 0.0
+     2, "10808-1",     0,-59055; 180.0
+
+board "10808-1"
+
+  outline
+    3819, 28228
+    3819, 11455
+   -5576, 11455
+   -5576,   -39
+  -11535,   -39
+  -11535, 28228
+    3819, 28228
+
+  node "+DC_IN"
+   -5350, 20039; preferred
+   -4694, 18121; preferred
+   -3980, 20199; preferred
+
+  node "3D3V_S0"
+   -6810, 12649; preferred, top
+
+  node "3D3V_S5"
+   -1180, 20827; preferred
+
+  node "5V_CRT_S0_R"
+   -8500, 13679; preferred, top
+
+  node "5V_S5"
+   -2550, 19889; preferred
+
+  node "5V_USB1_S3"
+   -3060, 22041; preferred
+   -1441, 22010; preferred
+    -896, 21367; preferred
+
+  node "AD+"
+      20, 17839; preferred
+
+  node "CRT_B"
+   -8200,  7259; preferred
+
+  node "CRT_BLUE_R"
+    -560, 15889; preferred
+
+  node "CRT_DDCCLK_CON"
+   -6820, 13269; preferred, top
+
+  node "CRT_DDCDATA_CON"
+   -7500,  8669; preferred, top
+
+  node "CRT_G"
+   -8300,  8663; preferred
+
+  node "CRT_GREEN_R"
+   -5720, 14169; preferred
+
+  node "CRT_HSYNC_CON"
+   -7270,  8079; preferred
+
+  node "CRT_HSYNC_CON_1"
+   -8210,  7797; preferred
+
+  node "CRT_R"
+   -8350, 10539; preferred
+
+  node "CRT_RED_R"
+   -3640, 16349; preferred
+
+  node "CRT_VSYNC_CON"
+   -7550,  5909; preferred
+
+  node "CRT_VSYNC_CON_1"; noaccess
+
+  node "DDCCLK"
+     275, 18419; preferred, top
+
+  node "DDCDATA"
+     496, 17529; preferred, top
+
+  node "GND"
+   -9087, 21352; preferred
+   -8100, 10859; preferred, top
+   -8090,  4499; preferred, top
+   -7850,  4269; preferred
+   -7500,  5319; preferred
+   -5690, 14219; preferred, top
+   -1420, 19949; preferred
+    2500, 17699; preferred, top
+    2610, 19399; preferred, top
+
+  node "N17827460"
+   -3600, 16339; preferred, top
+
+  node "N134944327"
+   -2050, 19429; preferred
+
+  node "NC_34"; noaccess
+
+  node "NC_35"; noaccess
+
+  node "NC_36"; noaccess
+
+  node "NC_37"; noaccess
+
+  node "NC_38"; noaccess
+
+  node "NC_39"; noaccess
+
+  node "NC_40"; noaccess
+
+  node "NC_41"; noaccess
+
+  node "NC_42"; noaccess
+
+  node "NC_43"; noaccess
+
+  node "PS_ID"; noaccess
+
+  node "PS_ID_R"
+   -5250, 18189; preferred, top
+
+  node "PS_ID_R2"
+   -4560, 17499; preferred, top
+
+  node "PSID_DISABLE#_R_C"
+   -4168, 18754; preferred, top
+
+  node "PSID_EC"
+     909, 18941; preferred, top
+
+  node "RCID"
+    1397, 19174; preferred, top
+
+  node "USB_PN1"; noaccess
+
+  node "USB_PN1_C"; noaccess
+
+  node "USB_PP1"; noaccess
+
+  node "USB_PP1_C"; noaccess
+
+  other
+  -10764, 15177; noprobe, top, "dcin1":9
+  -10764, 20177; noprobe, top, "dcin1":8
+  -10040,  5910; noprobe, top, "crt1":15
+  -10040,  6510; noprobe, top, "crt1":4
+  -10040,  7110; noprobe, top, "crt1":9
+  -10040,  7710; noprobe, top, "crt1":13
+  -10040,  8310; noprobe, top, "crt1":2
+  -10040,  8910; noprobe, top, "crt1":7
+  -10040,  9510; noprobe, top, "crt1":11
+   -9567,  2718; noprobe, top, "crt1":17
+   -9567, 12557; noprobe, top, "crt1":16
+   -9449,  5610; noprobe, top, "crt1":5
+   -9449,  6210; noprobe, top, "crt1":10
+   -9449,  6810; noprobe, top, "crt1":14
+   -9449,  7410; noprobe, top, "crt1":3
+   -9449,  8010; noprobe, top, "crt1":8
+   -9449,  8610; noprobe, top, "crt1":12
+   -9449,  9210; noprobe, top, "crt1":1
+   -9449,  9810; noprobe, top, "crt1":6
+   -9252,  4492; noprobe, top, "crt1":"NP2"
+   -9252, 10783; noprobe, top, "crt1":"NP1"
+   -8780, 24764; noprobe, top, "h2":1
+   -8284, 15177; noprobe, top, "dcin1":5
+   -8284, 20177; noprobe, top, "dcin1":4
+   -8250,  9344; noprobe, top, "r304":1
+   -8250,  9694; noprobe, top, "r304":2
+   -8220,  8474; noprobe, top, "c304":2
+   -8220,  8824; noprobe, top, "c304":1
+   -8185,  7279; noprobe, top, "c317":1
+   -8185,  7679; noprobe, top, "r305":2
+   -8185,  8059; noprobe, top, "c312":1
+   -8175,  5739; noprobe, top, "c315":1
+   -8175,  6139; noprobe, top, "r302":2
+   -8175,  6539; noprobe, top, "c316":1
+   -8175,  6879; noprobe, top, "c303":1
+   -8120, 12433; noprobe, top, "q301":3
+   -8120, 12689; noprobe, top, "q301":2
+   -8120, 12945; noprobe, top, "q301":1
+   -8020, 10864; noprobe, "c309":1
+   -8020, 11214; noprobe, "c309":2
+   -8000,  9014; noprobe, "c310":1
+   -8000,  9364; noprobe, "c310":2
+   -7928, 12403; noprobe, "rn302":4
+   -7928, 12875; noprobe, "rn302":1
+   -7925, 13539; noprobe, "ec205":2
+   -7900,  8539; noprobe, "l302":2
+   -7900, 10389; noprobe, "l301":2
+   -7886, 13561; noprobe, top, "rn301":2
+   -7886, 13817; noprobe, top, "rn301":1
+   -7870,  8474; noprobe, top, "c305":2
+   -7870,  8824; noprobe, top, "c305":1
+   -7850,  9344; noprobe, top, "r303":1
+   -7850,  9694; noprobe, top, "r303":2
+   -7835,  7279; noprobe, top, "c317":2
+   -7835,  7679; noprobe, top, "r305":1
+   -7835,  8059; noprobe, top, "c312":2
+   -7825,  5739; noprobe, top, "c315":2
+   -7825,  6139; noprobe, top, "r302":1
+   -7825,  6539; noprobe, top, "c316":2
+   -7825,  6879; noprobe, top, "c303":2
+   -7800,  7214; noprobe, "c311":1
+   -7800,  7564; noprobe, "c311":2
+   -7700,  6739; noprobe, "l303":2
+   -7672, 12403; noprobe, "rn302":3
+   -7672, 12875; noprobe, "rn302":2
+   -7650,  9014; noprobe, "c307":1
+   -7650,  9364; noprobe, "c307":2
+   -7645, 10839; noprobe, "c306":2
+   -7645, 11239; noprobe, "r308":2
+   -7575, 13539; noprobe, "ec205":1
+   -7450,  7214; noprobe, "c308":1
+   -7450,  7564; noprobe, "c308":2
+   -7414, 13561; noprobe, top, "rn301":3
+   -7414, 13817; noprobe, top, "rn301":4
+   -7380, 12433; noprobe, top, "q301":4
+   -7380, 12689; noprobe, top, "q301":5
+   -7380, 12945; noprobe, top, "q301":6
+   -7300,  8539; noprobe, "l302":1
+   -7300, 10389; noprobe, "l301":1
+   -7295, 10839; noprobe, "c306":1
+   -7295, 11239; noprobe, "r308":1
+   -7280,  9014; noprobe, "r307":1
+   -7280,  9364; noprobe, "r307":2
+   -7100,  6739; noprobe, "l303":1
+   -7050,  7214; noprobe, "r306":1
+   -7050,  7564; noprobe, "r306":2
+   -7024, 15177; noprobe, top, "dcin1":6
+   -7024, 20177; noprobe, top, "dcin1":7
+   -6811, 22598; noprobe, top, "h3":1
+   -6276, 16858; noprobe, top, "dcin1":2
+   -6276, 17677; noprobe, top, "dcin1":1
+   -6276, 18496; noprobe, top, "dcin1":3
+   -6221,  1142; noprobe, top, "h1":1
+   -5535, 19559; noprobe, top, "pd3803":3
+   -5394, 23976; noprobe, top, "usb3":5
+   -5394, 26378; noprobe, top, "usb3":7
+   -4987, 21308; noprobe, top, "c401":2
+   -4984, 20928; noprobe, top, "r403":2
+   -4975, 20559; noprobe, top, "ec203":2
+   -4950, 16889; noprobe, "ec204":1
+   -4950, 17489; noprobe, "ec204":2
+   -4785, 19171; noprobe, top, "pd3803":1
+   -4785, 19946; noprobe, top, "pd3803":2
+   -4756, 17905; noprobe, top, "pr3801":2
+   -4756, 18505; noprobe, top, "pr3801":1
+   -4637, 21308; noprobe, top, "c401":1
+   -4634, 20928; noprobe, top, "r403":1
+   -4625, 20559; noprobe, top, "ec203":1
+   -4430, 16789; noprobe, "pc3802":2
+   -4430, 17389; noprobe, "pc3802":1
+   -4345, 16249; noprobe, top, "pr3812":1
+   -4297, 17904; noprobe, top, "pr3808":2
+   -4297, 18312; noprobe, top, "pr3807":2
+   -4280, 16839; noprobe, top, "pr3810":1
+   -4252, 24173; noprobe, top, "usb3":1
+   -4160, 19194; noprobe, top, "pr3806":2
+   -4160, 19544; noprobe, top, "pr3806":1
+   -4090, 18409; noprobe, "pr3809":1
+   -4090, 19009; noprobe, "pr3809":2
+   -3995, 16249; noprobe, top, "pr3812":2
+   -3975, 17319; noprobe, top, "pr3802":2
+   -3947, 17904; noprobe, top, "pr3808":1
+   -3947, 18312; noprobe, top, "pr3807":1
+   -3760, 22389; noprobe, top, "tc401":1
+   -3690, 20649; noprobe, top, "pd3801":"A"
+   -3680, 16839; noprobe, top, "pr3810":2
+   -3680, 18754; noprobe, top, "pr3803":2
+   -3680, 19104; noprobe, top, "pr3803":1
+   -3625, 17319; noprobe, top, "pr3802":1
+   -3550, 17718; noprobe, top, "pr3811":2
+   -3550, 18068; noprobe, top, "pr3811":1
+   -3400, 17259; noprobe, "pu3801":1
+   -3400, 17759; noprobe, "pu3801":2
+   -3400, 18259; noprobe, "pu3801":3
+   -3400, 18759; noprobe, "pu3801":4
+   -3268, 24173; noprobe, top, "usb3":2
+   -3120, 16269; noprobe, top, "pc3801":2
+   -3055, 19029; noprobe, top, "pq3802":3
+   -2975, 17241; noprobe, top, "pq3801":1
+   -2975, 18016; noprobe, top, "pq3801":2
+   -2480, 24173; noprobe, top, "usb3":3
+   -2360, 16269; noprobe, top, "pc3801":1
+   -2305, 18641; noprobe, top, "pq3802":1
+   -2305, 19416; noprobe, top, "pq3802":2
+   -2260, 22389; noprobe, top, "tc401":2
+   -2225, 17629; noprobe, top, "pq3801":3
+   -1770, 20649; noprobe, top, "pd3801":"C"
+   -1496, 24173; noprobe, top, "usb3":4
+   -1485, 16549; noprobe, top, "pq3803":3
+   -1454, 17655; noprobe, top, "pd3804":2
+   -1454, 18403; noprobe, top, "pd3804":1
+   -1400, 17259; noprobe, "pu3801":8
+   -1400, 17759; noprobe, "pu3801":7
+   -1400, 18259; noprobe, "pu3801":6
+   -1400, 18759; noprobe, "pu3801":5
+   -1380, 19184; noprobe, top, "pc3804":1
+   -1380, 19534; noprobe, top, "pc3804":2
+   -1304, 22839; noprobe, top, "d402":4
+   -1265, 22039; noprobe, top, "d402":1
+   -1040, 19294; noprobe, top, "ec201":1
+   -1040, 19644; noprobe, top, "ec201":2
+    -866, 20500; noprobe, top, "tr401":4
+    -866, 21167; noprobe, top, "tr401":3
+    -735, 16161; noprobe, top, "pq3803":2
+    -735, 16936; noprobe, top, "pq3803":1
+    -700, 19294; noprobe, top, "pc3803":1
+    -700, 19644; noprobe, top, "pc3803":2
+    -667, 18029; noprobe, top, "pd3804":3
+    -556, 22039; noprobe, top, "d402":2
+    -556, 22839; noprobe, top, "d402":3
+    -534, 20500; noprobe, top, "tr401":1
+    -534, 21167; noprobe, top, "tr401":2
+    -530, 18459; noprobe, "pc3806":1
+    -530, 19559; noprobe, "pc3806":2
+    -354, 23976; noprobe, top, "usb3":6
+    -354, 26378; noprobe, top, "usb3":8
+    -350, 19294; noprobe, top, "pc3805":1
+    -350, 19644; noprobe, top, "pc3805":2
+     708, 14645; noprobe, "crtbd2":41
+     708, 15473; noprobe, "crtbd2":1
+     708, 15788; noprobe, "crtbd2":3
+     708, 16103; noprobe, "crtbd2":5
+     708, 16418; noprobe, "crtbd2":7
+     708, 16732; noprobe, "crtbd2":9
+     708, 17047; noprobe, "crtbd2":11
+     708, 17362; noprobe, "crtbd2":13
+     708, 17677; noprobe, "crtbd2":15
+     708, 17992; noprobe, "crtbd2":17
+     708, 18307; noprobe, "crtbd2":19
+     708, 18622; noprobe, "crtbd2":21
+     708, 18937; noprobe, "crtbd2":23
+     708, 19252; noprobe, "crtbd2":25
+     708, 19567; noprobe, "crtbd2":27
+     708, 19882; noprobe, "crtbd2":29
+     708, 20197; noprobe, "crtbd2":31
+     708, 20512; noprobe, "crtbd2":33
+     708, 20827; noprobe, "crtbd2":35
+     708, 21142; noprobe, "crtbd2":37
+     708, 21457; noprobe, "crtbd2":39
+     708, 22284; noprobe, "crtbd2":44
+    1181, 14685; noprobe, top, "crtbd2":"NP2"
+    1181, 22244; noprobe, top, "crtbd2":"NP1"
+    1850, 14645; noprobe, "crtbd2":42
+    1850, 22284; noprobe, "crtbd2":45
+    2047, 12559; noprobe, top, "hio1":1
+    2047, 24370; noprobe, top, "hio2":1
+    2992, 14645; noprobe, "crtbd2":43
+    2992, 15473; noprobe, "crtbd2":2
+    2992, 15788; noprobe, "crtbd2":4
+    2992, 16103; noprobe, "crtbd2":6
+    2992, 16418; noprobe, "crtbd2":8
+    2992, 16732; noprobe, "crtbd2":10
+    2992, 17047; noprobe, "crtbd2":12
+    2992, 17362; noprobe, "crtbd2":14
+    2992, 17677; noprobe, "crtbd2":16
+    2992, 17992; noprobe, "crtbd2":18
+    2992, 18307; noprobe, "crtbd2":20
+    2992, 18622; noprobe, "crtbd2":22
+    2992, 18937; noprobe, "crtbd2":24
+    2992, 19252; noprobe, "crtbd2":26
+    2992, 19567; noprobe, "crtbd2":28
+    2992, 19882; noprobe, "crtbd2":30
+    2992, 20197; noprobe, "crtbd2":32
+    2992, 20512; noprobe, "crtbd2":34
+    2992, 20827; noprobe, "crtbd2":36
+    2992, 21142; noprobe, "crtbd2":38
+    2992, 21457; noprobe, "crtbd2":40
+    2992, 22284; noprobe, "crtbd2":46
+
+  devices
+    "c306"; bottom
+    "c307"; bottom
+    "c308"; bottom
+    "c309"; bottom
+    "c310"; bottom
+    "c311"; bottom
+    "ec204"; bottom
+    "ec205"; bottom
+    "pc3802"; bottom
+    "pc3806"; bottom
+    "crt1"; bottom
+    "crtbd2"; bottom
+    "dcin1"; bottom
+    "h1"; bottom
+    "h2"; bottom
+    "h3"; bottom
+    "hio1"; bottom
+    "hio2"; bottom
+    "usb3"; bottom
+    "l301"; bottom
+    "l302"; bottom
+    "l303"; bottom
+    "pu3801"; bottom
+    "rn302"; bottom
+    "pr3809"; bottom
+    "r306"; bottom
+    "r307"; bottom
+    "r308"; bottom
+
+end board
+
+checksum
+  "2d12ff6f"

@@ -1,0 +1,277 @@
+  208    3    7 1294487215   0000                                         
+
+OPTIONS
+  Fixture Type   EXPRESS;
+  Fixture Size   BANK2;
+  Fixture Part Number   44200S;
+  Top Probes Allowed ON;
+  Density Threshold  104.0;
+  Heavy Probe Force    8.0;
+  Light Probe Force    4.0;
+  Metric Units  OFF;
+  Wirewrapping  AUTO;
+
+  KEEPOUT TOP
+       -1887,  -85312
+       18113,  -85312
+       18113,   94662
+       -1887,   94662
+       -1887,  -85312;
+
+  KEEPOUT TOP
+      136618,  -85312
+      156618,  -85312
+      156618,   94662
+      136618,   94662
+      136618,  -85312;
+
+  KEEPOUT TOP
+       -1887,   94662
+      156618,   94662
+      156618,   83662
+       -1887,   83662
+       -1887,   94662;
+
+  KEEPOUT TOP
+       -1887,  -85312
+      156618,  -85312
+      156618,  -74312
+       -1887,  -74312
+       -1887,  -85312;
+
+  KEEPOUT BOTH
+      129731,   80000
+      129731,   50000
+      156618,   50000
+      156618,   80000
+      129731,   80000;
+
+  KEEPOUT BOTH
+       -1887,   80000
+       -1887,   50000
+       25000,   50000
+       25000,   80000
+       -1887,   80000;
+
+  KEEPOUT BOTH
+       -1887,  -85312
+       25000,  -85312
+       25000,  -40650
+       -1887,  -40650
+       -1887,  -85312;
+
+  KEEPOUT BOTH
+      156618,  -85312
+      156618,  -40650
+      129731,  -40650
+      129731,  -85312
+      156618,  -85312;
+
+  KEEPOUT BOTH
+       18113,   83662
+       18113,   80000
+       21725,   80000
+       21725,   83662
+       18113,   83662;
+
+  KEEPOUT BOTH
+      136618,   83662
+      136618,   80000
+      134079,   80000
+      134079,   83662
+      136618,   83662;
+
+  PANEL "10755-1-180"
+    PLACEMENT    44554,   42686  0.0;    ! with respect to tooling origin
+
+    OUTLINE
+        -13027,   31528
+         77771,   31528
+         77771,  -35000
+         77771,  -43500
+         77771, -110000
+        -13027, -110000
+        -13027,   31528;
+
+    OTHER
+      PINS
+        20201 BLOCKED;
+        20202 BLOCKED;
+        20203 BLOCKED;
+        20204 BLOCKED;
+        202101 BLOCKED;
+        202102 BLOCKED;
+        202103 BLOCKED;
+        202104 BLOCKED;
+        20301 BLOCKED;
+        20302 BLOCKED;
+        20303 BLOCKED;
+        20304 BLOCKED;
+        203101 BLOCKED;
+        203102 BLOCKED;
+        203103 BLOCKED;
+        203104 BLOCKED;
+        20401 BLOCKED;
+        20402 BLOCKED;
+        20403 BLOCKED;
+        20404 BLOCKED;
+        204101 BLOCKED;
+        204102 BLOCKED;
+        204103 BLOCKED;
+        204104 BLOCKED;
+        20501 BLOCKED;
+        20502 BLOCKED;
+        20503 BLOCKED;
+        20504 BLOCKED;
+        205101 BLOCKED;
+        205102 BLOCKED;
+        205103 BLOCKED;
+        205104 BLOCKED;
+        20275 BLOCKED;
+        20276 BLOCKED;
+        20277 BLOCKED;
+        20278 BLOCKED;
+        202175 BLOCKED;
+        202176 BLOCKED;
+        202177 BLOCKED;
+        202178 BLOCKED;
+        20375 BLOCKED;
+        20376 BLOCKED;
+        20377 BLOCKED;
+        20378 BLOCKED;
+        203175 BLOCKED;
+        203176 BLOCKED;
+        203177 BLOCKED;
+        203178 BLOCKED;
+        20475 BLOCKED;
+        20476 BLOCKED;
+        20477 BLOCKED;
+        20478 BLOCKED;
+        204175 BLOCKED;
+        204176 BLOCKED;
+        204177 BLOCKED;
+        204178 BLOCKED;
+        20575 BLOCKED;
+        20576 BLOCKED;
+        20577 BLOCKED;
+        20578 BLOCKED;
+        205175 BLOCKED;
+        205176 BLOCKED;
+        205177 BLOCKED;
+        205178 BLOCKED;
+        21975 BLOCKED;
+        21976 BLOCKED;
+        21977 BLOCKED;
+        21978 BLOCKED;
+        219175 BLOCKED;
+        219176 BLOCKED;
+        219177 BLOCKED;
+        219178 BLOCKED;
+        22075 BLOCKED;
+        22076 BLOCKED;
+        22077 BLOCKED;
+        22078 BLOCKED;
+        220175 BLOCKED;
+        220176 BLOCKED;
+        220177 BLOCKED;
+        220178 BLOCKED;
+        22175 BLOCKED;
+        22176 BLOCKED;
+        22177 BLOCKED;
+        22178 BLOCKED;
+        221175 BLOCKED;
+        221176 BLOCKED;
+        221177 BLOCKED;
+        221178 BLOCKED;
+        22275 BLOCKED;
+        22276 BLOCKED;
+        22277 BLOCKED;
+        22278 BLOCKED;
+        222175 BLOCKED;
+        222176 BLOCKED;
+        222177 BLOCKED;
+        222178 BLOCKED;
+        22375 BLOCKED;
+        22376 BLOCKED;
+        22377 BLOCKED;
+        22378 BLOCKED;
+        223175 BLOCKED;
+        223176 BLOCKED;
+        223177 BLOCKED;
+        223178 BLOCKED;
+        21901 BLOCKED;
+        21902 BLOCKED;
+        21903 BLOCKED;
+        21904 BLOCKED;
+        219101 BLOCKED;
+        219102 BLOCKED;
+        219103 BLOCKED;
+        219104 BLOCKED;
+        22001 BLOCKED;
+        22002 BLOCKED;
+        22003 BLOCKED;
+        22004 BLOCKED;
+        220101 BLOCKED;
+        220102 BLOCKED;
+        220103 BLOCKED;
+        220104 BLOCKED;
+        22101 BLOCKED;
+        22102 BLOCKED;
+        22103 BLOCKED;
+        22104 BLOCKED;
+        221101 BLOCKED;
+        221102 BLOCKED;
+        221103 BLOCKED;
+        221104 BLOCKED;
+        22201 BLOCKED;
+        22202 BLOCKED;
+        22203 BLOCKED;
+        22204 BLOCKED;
+        222101 BLOCKED;
+        222102 BLOCKED;
+        222103 BLOCKED;
+        222104 BLOCKED;
+        22301 BLOCKED;
+        22302 BLOCKED;
+        22303 BLOCKED;
+        22304 BLOCKED;
+        223101 BLOCKED;
+        223102 BLOCKED;
+        223103 BLOCKED;
+        223104 BLOCKED;
+        20177 BLOCKED;
+        20178 BLOCKED;
+        20101 BLOCKED;
+  
+    BOARD "10755-1-180%1"
+      PLACEMENT        0,       0  0.0;    ! with respect to panel origin
+  
+      OUTLINE
+            3819,   28228
+            3819,   11455
+           -5576,   11455
+           -5576,     -39
+          -11535,     -39
+          -11535,   28228
+            3819,   28228;
+  
+  
+    END BOARD
+  
+    BOARD "10755-1-180%2"
+      PLACEMENT        0,  -59055  180.0;    ! with respect to panel origin
+  
+      OUTLINE
+            3819,   28228
+            3819,   11455
+           -5576,   11455
+           -5576,     -39
+          -11535,     -39
+          -11535,   28228
+            3819,   28228;
+  
+  
+    END BOARD
+  END PANEL
+
+END

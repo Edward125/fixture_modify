@@ -1,0 +1,98 @@
+------------------------------------------------------------------------------
+AGILENT ICT BOARD PLACEMENT                Sat Jan  8 18:02:17 2011      
+
+E:/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/DN15-Small-10755-1/fixture/summary
+------------------------------------------------------------------------------
+
+The fixture file will be initialized using values from a fixture
+   default object.  All fixture options in the board file will be ignored
+   except for fixture size and type.
+   
+   The default object is ./fixture_defaults.o. (WARNING BPL88)
+
+Inserted fixture part number "44200S" into the fixture object file.
+   The fixture part number was selected based on the fixture parameters
+   specified.  If you wish to use an alternative fixture part number, please
+   list the fixture object and replace the fixture part number in the fixture
+   file with one of the other recognized part numbers described in the manual.
+
+Trying to find a placement for the board that is compatible
+   with the board handler.
+
+The board "DN15-Small-10755-1" was placed at X =  38125, Y = -64650
+  with a rotation of  90.000 degrees.
+
+------------------------------------------------------------------------------
+AGILENT ICT BOARD PLACEMENT                Sat Jan  8 18:03:54 2011      
+
+E:/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/DN15-Small-10755-1/fixture/summary
+------------------------------------------------------------------------------
+
+The fixture file will be initialized using values from a fixture
+   default object.  All fixture options in the board file will be ignored
+   except for fixture size and type.
+   
+   The default object is ./fixture_defaults.o. (WARNING BPL88)
+
+Inserted fixture part number "44200S" into the fixture object file.
+   The fixture part number was selected based on the fixture parameters
+   specified.  If you wish to use an alternative fixture part number, please
+   list the fixture object and replace the fixture part number in the fixture
+   file with one of the other recognized part numbers described in the manual.
+
+Trying to find a placement for the board that is compatible
+   with the board handler.
+
+The board "DN15-Small-10755-1" was placed at X =  38125, Y = -64650
+  with a rotation of  90.000 degrees.
+
+------------------------------------------------------------------------------
+AGILENT ICT PROBE SELECTION                Sat Jan  8 18:04:14 2011      
+
+E:/VB/VB_Close/newVB_ok/newVB_ok/fixture_modify_6.0/DN15-Small-10755-1/fixture/summary
+------------------------------------------------------------------------------
+
+
+   BOARD DN15-Small-10755-1%1 PROBE REPORT FOR ALL NODES 
+
+
+   Summary Report 
+
+   Nodes that are inaccessible or need more probes           =    0
+   Maximum probe force density (oz./sq. in.)                 =   72
+   Number of probes exceeding density threshold              =    0
+   Number of light spring force probes used                  =    7
+   Number of 50MIL probes used                               =    7
+   Nodes marked for dual stage probes that could
+      not be assigned dual stage probes                      =    0
+   Number of probes close to the edge of the board
+      for a vacuum fixture                                   =    0
+   Number of probes close to the edge of the board
+      for a mechanical fixture                               =    0
+   Nodes added to the fixture                                =   44
+   Nodes marked NO_PROBE or NO_ACCESS in board_xy            =   16
+   Alternate probing locations discarded                     =    4
+
+   BOARD DN15-Small-10755-1%2 PROBE REPORT FOR ALL NODES 
+
+
+   Summary Report 
+
+   Nodes that are inaccessible or need more probes           =    0
+   Maximum probe force density (oz./sq. in.)                 =   72
+   Number of probes exceeding density threshold              =    0
+   Number of light spring force probes used                  =    7
+   Number of 50MIL probes used                               =    7
+   Nodes marked for dual stage probes that could
+      not be assigned dual stage probes                      =    0
+   Number of probes close to the edge of the board
+      for a vacuum fixture                                   =    0
+   Number of probes close to the edge of the board
+      for a mechanical fixture                               =    0
+   Nodes added to the fixture                                =   44
+   Nodes marked NO_PROBE or NO_ACCESS in board_xy            =   16
+   Alternate probing locations discarded                     =    3
+
+   Pins blocked during this run of Probe Select              =    2
+      Blocked pins actually in the configuration             =    2
+      Blocked pins not in the configuration                  =    0

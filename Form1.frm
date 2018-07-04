@@ -13,6 +13,14 @@ Begin VB.Form Form1
    ScaleWidth      =   14145
    StartUpPosition =   3  'Windows Default
    WindowState     =   2  'Maximized
+   Begin VB.CommandButton Command2 
+      Caption         =   "Fixture Angle Tool"
+      Height          =   255
+      Left            =   600
+      TabIndex        =   23
+      Top             =   600
+      Width           =   1935
+   End
    Begin VB.CommandButton cmdDeleteNouse 
       Caption         =   "Delete no wire probe"
       Height          =   315
@@ -104,7 +112,7 @@ Begin VB.Form Form1
       Width           =   1695
    End
    Begin MSComDlg.CommonDialog CommonDialog1 
-      Left            =   3120
+      Left            =   7560
       Top             =   360
       _ExtentX        =   847
       _ExtentY        =   847
@@ -672,10 +680,10 @@ Dim nSel As Integer
         
         If pS.Selected = True Then
             If x = True Then
-                pS.xShift = V1_ - pS.Xo - pS.xPlaceMent + nSel * tranWidth * 4.5
+                pS.xShift = V1_ - pS.Xo - pS.xPlaceMent + nSel * tranWidth * 8
                 pS.yShift = V2_ - pS.Yo - pS.yPlaceMent
             Else
-                pS.yShift = V1_ - pS.Yo - pS.yPlaceMent + nSel * tranWidth * 4.5
+                pS.yShift = V1_ - pS.Yo - pS.yPlaceMent + nSel * tranWidth * 8
                 pS.xShift = V2_ - pS.Xo - pS.xPlaceMent
             End If
             Call CalculateShow(pS)
@@ -852,7 +860,7 @@ If Dir(txtFile.Text) = "" Then
    MsgBox "Please open fixture.o file!", vbCritical
    Exit Sub
 End If
-Dim f As New FileSystemObject
+Dim f As New FileSystemObject  'must Project-->References-->Microsoft Scripting Runtime
 Dim tr As TextStream
 Dim strL As String
 Dim strlB As String
@@ -866,14 +874,14 @@ Me.Command1.Enabled = False
 Me.Picture1.Enabled = True
 
   
-Set tr = f.OpenTextFile(Me.txtFile.Text)
+Set tr = f.OpenTextFile(Me.txtFile.Text)  'Open the file return TextStream object ,to read or superaddition.
 
 ReDim Tran(0) As tPoint
 ReDim OutLine(0) As tPoint
 ReDim KeepOut(0) As tPoint
  
-Do Until tr.AtEndOfStream
- strL = Trim(tr.ReadLine)
+Do Until tr.AtEndOfStream    'if tr end, then tr.AtEndOfStream = true
+ strL = Trim(tr.ReadLine)    'get a line,and delete left and right space
  nLine = nLine + 1
  If nLine = 2 Then
     If strL = createCode Then
@@ -1194,7 +1202,7 @@ For i = 0 To UBound(Tran)
          Else
             colo = vbYellow
          End If
-         
+
          
          If p2.Selected = True Then
             Me.Picture1.Line (p2.Xshow / Rate + xOff - RR, p2.Yshow / Rate + yOff - RR)-(p2.Xshow / Rate + xOff + RR, p2.Yshow / Rate + yOff + RR), colo, BF
@@ -1209,6 +1217,10 @@ DoEvents
 
 'ErrStop:
 'MsgBox Err.Description, vbCritical
+End Sub
+
+Private Sub Command2_Click()
+frmTool.Show 1
 End Sub
 
 Private Sub Form_KeyDown(KeyCode As Integer, Shift As Integer)
@@ -1309,7 +1321,7 @@ Me.Picture1.Print "[S] to down move Transfer pins"
 Me.Picture1.Print "[D] to right move Transfer pins"
 Me.Picture1.Print "[W] to up move Transfer pins"
 Me.Picture1.Print "[Shift] to fast move Transfer pins"
-Me.Picture1.Print "[Ctl] to slow move Transfer pins"
+Me.Picture1.Print "[Ctrl] to slow move Transfer pins"
 
 'Me.Picture1.Print
 'Me.Picture1.Print "writer: x.d.zhang@126.com"
@@ -1475,4 +1487,5 @@ Public Function createCode() As String
   
   
 End Function
+
 

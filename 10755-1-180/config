@@ -1,0 +1,49 @@
+!!!!    5    0    2 1294456764  Vaecd                                         
+!target agilent3070 value
+target hp3073 standard
+
+enable software revision b
+enable express fixturing
+enable testjet
+enable paneltest
+enable multiple board versions
+enable drivethru
+enable advanced boundary scan differential
+
+!enable 1149.6 boundary scan
+  enable common delimiter
+   enable throughput multiplier
+   module 2
+      cards 1 asru c revision
+      cards 2 analog double density
+      cards 3 analog double density
+      cards 4 analog double density
+      cards 5 analog double density
+      cards 6 control xt
+       cards 7 to 11  hybrid standard double density
+!      cards 7 to 11  hybrid value double density 32
+      supplies hp6624 5 to 8 asru channels 1 to 4
+!     supplies hp6621 10 asru channels 5 to 6
+   end module
+
+   module 3
+      cards 1 asru c revision
+!      cards 2 to 5 hybrid value double density 32
+      cards 2 to 5 hybrid standard double density
+      cards 6 control xt
+      cards 7 to 11 analog double density
+      supplies hp6624 1 to 4 asru channels 1 to 4
+!     supplies hp6621 9 asru channels 5 to 6
+   end module
+  boards 1 in module 2
+   boards 2 in module 2
+   boards 3 in module 3
+   boards 4 in module 3
+   boards 5 in module 2
+   boards 6 in module 2
+   boards 7 in module 3
+   boards 8 in module 3
+   boards 9 in module 2
+   boards 10 in module 2
+   boards 11 in module 3
+   boards 12 in module 3

@@ -1,0 +1,687 @@
+  208    3    7 1294487223   0000                                         
+
+OPTIONS
+  Fixture Type   EXPRESS;
+  Fixture Size   BANK2;
+  Fixture Part Number   44200S;
+  Top Probes Allowed ON;
+  Density Threshold  104.0;
+  Heavy Probe Force    8.0;
+  Light Probe Force    4.0;
+  Metric Units  OFF;
+  Wirewrapping  AUTO;
+
+  KEEPOUT TOP
+       -1887,  -85312
+       18113,  -85312
+       18113,   94662
+       -1887,   94662
+       -1887,  -85312;
+
+  KEEPOUT TOP
+      136618,  -85312
+      156618,  -85312
+      156618,   94662
+      136618,   94662
+      136618,  -85312;
+
+  KEEPOUT TOP
+       -1887,   94662
+      156618,   94662
+      156618,   83662
+       -1887,   83662
+       -1887,   94662;
+
+  KEEPOUT TOP
+       -1887,  -85312
+      156618,  -85312
+      156618,  -74312
+       -1887,  -74312
+       -1887,  -85312;
+
+  KEEPOUT BOTH
+      129731,   80000
+      129731,   50000
+      156618,   50000
+      156618,   80000
+      129731,   80000;
+
+  KEEPOUT BOTH
+       -1887,   80000
+       -1887,   50000
+       25000,   50000
+       25000,   80000
+       -1887,   80000;
+
+  KEEPOUT BOTH
+       -1887,  -85312
+       25000,  -85312
+       25000,  -40650
+       -1887,  -40650
+       -1887,  -85312;
+
+  KEEPOUT BOTH
+      156618,  -85312
+      156618,  -40650
+      129731,  -40650
+      129731,  -85312
+      156618,  -85312;
+
+  KEEPOUT BOTH
+       18113,   83662
+       18113,   80000
+       21725,   80000
+       21725,   83662
+       18113,   83662;
+
+  KEEPOUT BOTH
+      136618,   83662
+      136618,   80000
+      134079,   80000
+      134079,   83662
+      136618,   83662;
+
+  PANEL "10755-1-180"
+    PLACEMENT    44554,   42686  0.0;    ! with respect to tooling origin
+
+    OUTLINE
+        -13027,   31528
+         77771,   31528
+         77771,  -35000
+         77771,  -43500
+         77771, -110000
+        -13027, -110000
+        -13027,   31528;
+
+    OTHER
+      PINS
+        20201 BLOCKED;
+        20202 BLOCKED;
+        20203 BLOCKED;
+        20204 BLOCKED;
+        202101 BLOCKED;
+        202102 BLOCKED;
+        202103 BLOCKED;
+        202104 BLOCKED;
+        20301 BLOCKED;
+        20302 BLOCKED;
+        20303 BLOCKED;
+        20304 BLOCKED;
+        203101 BLOCKED;
+        203102 BLOCKED;
+        203103 BLOCKED;
+        203104 BLOCKED;
+        20401 BLOCKED;
+        20402 BLOCKED;
+        20403 BLOCKED;
+        20404 BLOCKED;
+        204101 BLOCKED;
+        204102 BLOCKED;
+        204103 BLOCKED;
+        204104 BLOCKED;
+        20501 BLOCKED;
+        20502 BLOCKED;
+        20503 BLOCKED;
+        20504 BLOCKED;
+        205101 BLOCKED;
+        205102 BLOCKED;
+        205103 BLOCKED;
+        205104 BLOCKED;
+        20275 BLOCKED;
+        20276 BLOCKED;
+        20277 BLOCKED;
+        20278 BLOCKED;
+        202175 BLOCKED;
+        202176 BLOCKED;
+        202177 BLOCKED;
+        202178 BLOCKED;
+        20375 BLOCKED;
+        20376 BLOCKED;
+        20377 BLOCKED;
+        20378 BLOCKED;
+        203175 BLOCKED;
+        203176 BLOCKED;
+        203177 BLOCKED;
+        203178 BLOCKED;
+        20475 BLOCKED;
+        20476 BLOCKED;
+        20477 BLOCKED;
+        20478 BLOCKED;
+        204175 BLOCKED;
+        204176 BLOCKED;
+        204177 BLOCKED;
+        204178 BLOCKED;
+        20575 BLOCKED;
+        20576 BLOCKED;
+        20577 BLOCKED;
+        20578 BLOCKED;
+        205175 BLOCKED;
+        205176 BLOCKED;
+        205177 BLOCKED;
+        205178 BLOCKED;
+        21975 BLOCKED;
+        21976 BLOCKED;
+        21977 BLOCKED;
+        21978 BLOCKED;
+        219175 BLOCKED;
+        219176 BLOCKED;
+        219177 BLOCKED;
+        219178 BLOCKED;
+        22075 BLOCKED;
+        22076 BLOCKED;
+        22077 BLOCKED;
+        22078 BLOCKED;
+        220175 BLOCKED;
+        220176 BLOCKED;
+        220177 BLOCKED;
+        220178 BLOCKED;
+        22175 BLOCKED;
+        22176 BLOCKED;
+        22177 BLOCKED;
+        22178 BLOCKED;
+        221175 BLOCKED;
+        221176 BLOCKED;
+        221177 BLOCKED;
+        221178 BLOCKED;
+        22275 BLOCKED;
+        22276 BLOCKED;
+        22277 BLOCKED;
+        22278 BLOCKED;
+        222175 BLOCKED;
+        222176 BLOCKED;
+        222177 BLOCKED;
+        222178 BLOCKED;
+        22375 BLOCKED;
+        22376 BLOCKED;
+        22377 BLOCKED;
+        22378 BLOCKED;
+        223175 BLOCKED;
+        223176 BLOCKED;
+        223177 BLOCKED;
+        223178 BLOCKED;
+        21901 BLOCKED;
+        21902 BLOCKED;
+        21903 BLOCKED;
+        21904 BLOCKED;
+        219101 BLOCKED;
+        219102 BLOCKED;
+        219103 BLOCKED;
+        219104 BLOCKED;
+        22001 BLOCKED;
+        22002 BLOCKED;
+        22003 BLOCKED;
+        22004 BLOCKED;
+        220101 BLOCKED;
+        220102 BLOCKED;
+        220103 BLOCKED;
+        220104 BLOCKED;
+        22101 BLOCKED;
+        22102 BLOCKED;
+        22103 BLOCKED;
+        22104 BLOCKED;
+        221101 BLOCKED;
+        221102 BLOCKED;
+        221103 BLOCKED;
+        221104 BLOCKED;
+        22201 BLOCKED;
+        22202 BLOCKED;
+        22203 BLOCKED;
+        22204 BLOCKED;
+        222101 BLOCKED;
+        222102 BLOCKED;
+        222103 BLOCKED;
+        222104 BLOCKED;
+        22301 BLOCKED;
+        22302 BLOCKED;
+        22303 BLOCKED;
+        22304 BLOCKED;
+        223101 BLOCKED;
+        223102 BLOCKED;
+        223103 BLOCKED;
+        223104 BLOCKED;
+        20177 BLOCKED;
+        20178 BLOCKED;
+        20101 BLOCKED;
+        21656 BLOCKED;
+        205167 BLOCKED;
+        216156 BLOCKED;
+  
+    BOARD "10755-1-180%1"
+      PLACEMENT        0,       0  0.0;    ! with respect to panel origin
+  
+      OUTLINE
+            3819,   28228
+            3819,   11455
+           -5576,   11455
+           -5576,     -39
+          -11535,     -39
+          -11535,   28228
+            3819,   28228;
+  
+      NODE "1%+DC_IN"
+        PROBES
+          P26       -5350,   20039;
+        ALTERNATES
+             -3980,   20199;
+             -4694,   18121;
+  
+      NODE "1%3D3V_S0"
+        PROBES
+          P1        -6810,   12649 TOP 50MIL;
+        TRANSFERS
+          T59      -19443,   13039;
+  
+      NODE "1%3D3V_S5"
+        PROBES
+          P2        -1180,   20827;
+  
+      NODE "1%5V_CRT_S0_R"
+        PROBES
+          P3        -8500,   13679 TOP;
+        TRANSFERS
+          T60      -19443,   16039;
+  
+      NODE "1%5V_S5"
+        PROBES
+          P4        -2550,   19889 75MIL;
+  
+      NODE "1%5V_USB1_S3"
+        PROBES
+          P27       -3060,   22041;
+  
+      NODE "1%AD+"
+        PROBES
+          P5           20,   17839;
+  
+      NODE "1%CRT_B"
+        PROBES
+          P6        -8200,    7259 50MIL;
+  
+      NODE "1%CRT_BLUE_R"
+        PROBES
+          P7         -560,   15889;
+  
+      NODE "1%CRT_DDCCLK_CON"
+        PROBES
+          P8        -6820,   13269 TOP 50MIL;
+        TRANSFERS
+          T61      -19443,    5539;
+  
+      NODE "1%CRT_DDCDATA_CON"
+        PROBES
+          P9        -7500,    8669 TOP;
+        TRANSFERS
+          T62      -19443,    2539;
+  
+      NODE "1%CRT_G"
+        PROBES
+          P10       -8300,    8663;
+  
+      NODE "1%CRT_GREEN_R"
+        PROBES
+          P11       -5720,   14169;
+  
+      NODE "1%CRT_HSYNC_CON"
+        PROBES
+          P12       -7270,    8079;
+  
+      NODE "1%CRT_HSYNC_CON_1"
+        PROBES
+          P13       -8210,    7797 50MIL;
+  
+      NODE "1%CRT_R"
+        PROBES
+          P14       -8350,   10539;
+  
+      NODE "1%CRT_RED_R"
+        PROBES
+          P15       -3640,   16349;
+  
+      NODE "1%CRT_VSYNC_CON"
+        PROBES
+          P16       -7550,    5909;
+  
+      NODE "1%CRT_VSYNC_CON_1"
+  
+      NODE "1%DDCCLK"
+        PROBES
+          P17         275,   18419 TOP;
+        TRANSFERS
+          T63      -19443,   23539;
+  
+      NODE "1%DDCDATA"
+        PROBES
+          P18         496,   17529 TOP;
+        TRANSFERS
+          T64      -19443,   26539;
+  
+      NODE "1%GND" GROUND
+        PROBES
+          P28       -1420,   19949;
+          P29       -9087,   21352;
+        ALTERNATES
+             -7850,    4269;
+             -8090,    4499 TOP;
+             -5690,   14219 TOP;
+             -8100,   10859 TOP;
+              2500,   17699 TOP;
+  
+      NODE "1%N17827460"
+        PROBES
+          P19       -3600,   16339 TOP;
+        TRANSFERS
+          T65      -19443,    1039;
+  
+      NODE "1%N134944327"
+        PROBES
+          P20       -2050,   19429 50MIL;
+  
+      NODE "1%NC_34"
+  
+      NODE "1%NC_35"
+  
+      NODE "1%NC_36"
+  
+      NODE "1%NC_37"
+  
+      NODE "1%NC_38"
+  
+      NODE "1%NC_39"
+  
+      NODE "1%NC_40"
+  
+      NODE "1%NC_41"
+  
+      NODE "1%NC_42"
+  
+      NODE "1%NC_43"
+  
+      NODE "1%PS_ID"
+  
+      NODE "1%PS_ID_R"
+        PROBES
+          P21       -5250,   18189 TOP;
+        TRANSFERS
+          T66      -20943,    5539;
+  
+      NODE "1%PS_ID_R2"
+        PROBES
+          P22       -4560,   17499 TOP;
+        TRANSFERS
+          T67      -20943,    2539;
+  
+      NODE "1%PSID_DISABLE#_R_C"
+        PROBES
+          P23       -4168,   18754 TOP;
+        TRANSFERS
+          T68      -19443,   34039;
+  
+      NODE "1%PSID_EC"
+        PROBES
+          P24         909,   18941 TOP 50MIL;
+        TRANSFERS
+          T69      -19443,   35539;
+  
+      NODE "1%RCID"
+        PROBES
+          P25        1397,   19174 TOP 50MIL;
+        TRANSFERS
+          T70      -19443,   37039;
+  
+      NODE "1%USB_PN1"
+  
+      NODE "1%USB_PN1_C"
+  
+      NODE "1%USB_PP1"
+  
+      NODE "1%USB_PP1_C"
+  
+      OTHER
+        PINS
+          20461    822;
+          20462    535;
+          20464    871;
+          20465   -791;
+          20567    748;
+          20666   -596;
+          20667   -788;
+          203162    630;
+          203163   -471;
+          203167    789;
+          203168    665;
+          204165    795;
+          205166   -620;
+        TRANSFERS
+          T83      -19443,    -461 DRILLED;
+          T84      -20943,    1039 DRILLED;
+          T85      -20943,    -461 DRILLED;
+          T86      -19443,   -4961 DRILLED;
+          T91      -22443,    5539 DRILLED;
+          T92      -22443,    2539 DRILLED;
+          T93      -22443,    1039 DRILLED;
+          T94      -22443,    -461 DRILLED;
+          T95      -20943,   -4961 DRILLED;
+          T96      -22443,   -4961 DRILLED;
+          T97      -23943,    5539 DRILLED;
+          T98      -23943,    2539 DRILLED;
+          T99      -23943,    1039 DRILLED;
+          T100     -23943,    -461 DRILLED;
+          T101     -23943,   -4961 DRILLED;
+          T102     -25443,    5539 DRILLED;
+    END BOARD
+  
+    BOARD "10755-1-180%2"
+      PLACEMENT        0,  -59055  180.0;    ! with respect to panel origin
+  
+      OUTLINE
+            3819,   28228
+            3819,   11455
+           -5576,   11455
+           -5576,     -39
+          -11535,     -39
+          -11535,   28228
+            3819,   28228;
+  
+      NODE "2%+DC_IN"
+        PROBES
+          P55       -5350,   20039;
+        ALTERNATES
+             -3980,   20199;
+             -4694,   18121;
+  
+      NODE "2%3D3V_S0"
+        PROBES
+          P30       -6810,   12649 TOP 50MIL;
+        TRANSFERS
+          T71       19443,   11906;
+  
+      NODE "2%3D3V_S5"
+        PROBES
+          P31       -1180,   20827;
+  
+      NODE "2%5V_CRT_S0_R"
+        PROBES
+          P32       -8500,   13679 TOP;
+        TRANSFERS
+          T72       19443,    8906;
+  
+      NODE "2%5V_S5"
+        PROBES
+          P33       -2550,   19889 75MIL;
+  
+      NODE "2%5V_USB1_S3"
+        PROBES
+          P56       -3060,   22041;
+  
+      NODE "2%AD+"
+        PROBES
+          P34          20,   17839;
+  
+      NODE "2%CRT_B"
+        PROBES
+          P35       -8200,    7259 50MIL;
+  
+      NODE "2%CRT_BLUE_R"
+        PROBES
+          P36        -560,   15889;
+  
+      NODE "2%CRT_DDCCLK_CON"
+        PROBES
+          P37       -6820,   13269 TOP 50MIL;
+        TRANSFERS
+          T73       19443,   19406;
+  
+      NODE "2%CRT_DDCDATA_CON"
+        PROBES
+          P38       -7500,    8669 TOP;
+        TRANSFERS
+          T74       19443,    1406;
+  
+      NODE "2%CRT_G"
+        PROBES
+          P39       -8300,    8663;
+  
+      NODE "2%CRT_GREEN_R"
+        PROBES
+          P40       -5720,   14169;
+  
+      NODE "2%CRT_HSYNC_CON"
+        PROBES
+          P41       -7270,    8079;
+  
+      NODE "2%CRT_HSYNC_CON_1"
+        PROBES
+          P42       -8210,    7797 50MIL;
+  
+      NODE "2%CRT_R"
+        PROBES
+          P43       -8350,   10539;
+  
+      NODE "2%CRT_RED_R"
+        PROBES
+          P44       -3640,   16349;
+  
+      NODE "2%CRT_VSYNC_CON"
+        PROBES
+          P45       -7550,    5909;
+  
+      NODE "2%CRT_VSYNC_CON_1"
+  
+      NODE "2%DDCCLK"
+        PROBES
+          P46         275,   18419 TOP;
+        TRANSFERS
+          T75       19443,   22406;
+  
+      NODE "2%DDCDATA"
+        PROBES
+          P47         496,   17529 TOP;
+        TRANSFERS
+          T76       19443,   23906;
+  
+      NODE "2%GND" GROUND
+        PROBES
+          P57       -9087,   21352;
+          P58       -1420,   19949;
+        ALTERNATES
+             -7850,    4269;
+             -8090,    4499 TOP;
+             -5690,   14219 TOP;
+             -8100,   10859 TOP;
+              2500,   17699 TOP;
+  
+      NODE "2%N17827460"
+        PROBES
+          P48       -3600,   16339 TOP;
+        TRANSFERS
+          T77       19443,   25406;
+  
+      NODE "2%N134944327"
+        PROBES
+          P49       -2050,   19429 50MIL;
+  
+      NODE "2%NC_34"
+  
+      NODE "2%NC_35"
+  
+      NODE "2%NC_36"
+  
+      NODE "2%NC_37"
+  
+      NODE "2%NC_38"
+  
+      NODE "2%NC_39"
+  
+      NODE "2%NC_40"
+  
+      NODE "2%NC_41"
+  
+      NODE "2%NC_42"
+  
+      NODE "2%NC_43"
+  
+      NODE "2%PS_ID"
+  
+      NODE "2%PS_ID_R"
+        PROBES
+          P50       -5250,   18189 TOP;
+        TRANSFERS
+          T78       19443,   29906;
+  
+      NODE "2%PS_ID_R2"
+        PROBES
+          P51       -4560,   17499 TOP;
+        TRANSFERS
+          T79       19443,   32906;
+  
+      NODE "2%PSID_DISABLE#_R_C"
+        PROBES
+          P52       -4168,   18754 TOP;
+        TRANSFERS
+          T80       19443,   -1594;
+  
+      NODE "2%PSID_EC"
+        PROBES
+          P53         909,   18941 TOP 50MIL;
+        TRANSFERS
+          T81       20943,   19406;
+  
+      NODE "2%RCID"
+        PROBES
+          P54        1397,   19174 TOP 50MIL;
+        TRANSFERS
+          T82       20943,   22406;
+  
+      NODE "2%USB_PN1"
+  
+      NODE "2%USB_PN1_C"
+  
+      NODE "2%USB_PP1"
+  
+      NODE "2%USB_PP1_C"
+  
+      OTHER
+        PINS
+          21757    642;
+          21758    743;
+          21855    718;
+          21858   -545;
+          21859   -233;
+          21860   -701;
+          21861   -852;
+          215156    557;
+          217158    608;
+          217161    450;
+        TRANSFERS
+          T87       19443,   -9094 DRILLED;
+          T88       20943,   11906 DRILLED;
+          T89       19443,  -10594 DRILLED;
+          T90       20943,   23906 DRILLED;
+          T103      19443,  -12094 DRILLED;
+          T104      19443,   40406 DRILLED;
+          T105      20943,    8906 DRILLED;
+          T106      19443,  -16594 DRILLED;
+    END BOARD
+  END PANEL
+
+END
